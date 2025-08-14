@@ -26,15 +26,10 @@
           Let's set up your VAAST experiment!
         </h1>
         <p class="lead my-3">
-          You will need a development environment, like VSCode (which we personally use).
-          For this set up, you will also need a GitHub and an OSF account.
-          We'll use GitHub pages as a server for participants to access your experiment.
-          We'll use OSF to store the data. 
-          If you use other things, feel free to make the necessary modifications.          
-          Before starting, download and open your development environnement, and create your GitHub and OSF accounts if you don't have any. 
+          Something important enough to write here, that I don't repeat later on...
         </p>
         <p class="lead mb-0">
-          <a href="#" class="text-body-emphasis fw-bold">Continue reading...</a>
+          <a href="#you-got-this" class="text-body-emphasis fw-bold">Continue reading...</a>
         </p>
       </div>
     </div>
@@ -45,7 +40,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Try a mock version of the VAAST</h3>
             <p class="card-text mb-auto" style="padding-top: 0.75rem">
-              This page features two versions of the VAAST experiment : the incidental and the explicit VAAST.
+              This page features two versions of the VAAST experiment: the incidental and the explicit VAAST.
             </p>
             <a
               href="trials.php"
@@ -56,7 +51,7 @@
               </svg>
             </a>
           </div>
-          
+
         </div>
       </div>
       <div class="col-md-6">
@@ -65,8 +60,8 @@
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Optional Features</h3>
             <p class="mb-auto" style="padding-top: 0.75rem">
-              This page presents a large number of optional features. <br> These code snippets offer the possibility to add a browser check, 
-              an attentional check and a range of demographic questions to your experiment.
+              This page presents a large number of optional features. <br> These code snippets offer the possibility to add a browser check,
+              an attentional check and a range of demographic questions to your experiment, among other things.
             </p>
             <a
               href="features.php"
@@ -77,43 +72,47 @@
               </svg>
             </a>
           </div>
-         
         </div>
       </div>
     </div>
     <div class="row g-5">
       <div class="col-md-8">
-        <h3 class="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>
-        <article class="blog-post">
-          <h2 class="display-5 link-body-emphasis mb-1">Sample blog post</h2>
+        <!-- <h3 class="pb-4 mb-4 fst-italic border-bottom" id="you-got-this">You got this!</h3> -->
+        <article class="blog-post" id="before">
+          <h2 class="display-5 link-body-emphasis mb-1">What you need</h2>
           <p class="blog-post-meta">
-            January 1, 2021 by <a href="#">Mark</a>
+            Applications and Websites
           </p>
           <p>
-            This blog post shows a few different types of content that’s
-            supported and styled with Bootstrap. Basic typography, lists,
-            tables, images, code, and more are all supported as expected.
+            You will need a <strong>development environment</strong>, like <a href="https://code.visualstudio.com/">Visual Studio Code</a> (which we will use in this set-up).
+            If you don't have one yet, you can download one or use the web version if they have one.
           </p>
           <hr />
           <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
+            For this set up, we chose to use <a href="https://docs.github.com/en/pages">GitHub Pages</a> and <a href="https://osf.io/">OSF (Open Science Framework)</a>.
+            We'll use GitHub Pages to host the experiment online. For that we'll need a GitHub account.
+            We'll use OSF to store the resulting data, you'll need an account here as well.
+            <br>
+            If you use other <strong>things</strong>, feel free to make the necessary adjustments.
+            Otherwise, log onto these websites or create an account on each using the <em>Sign Up</em> button:
+          <ul>
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://osf.io/">OSF</a></li>
+          </ul>
           </p>
-          <h2>Blockquotes</h2>
-          <p>This is an example blockquote in action:</p>
-          <blockquote class="blockquote">
-            <p>Quoted text goes here.</p>
-          </blockquote>
+          <h2>Set up Visual Studio Code</h2>
           <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
+            Download the following <a href="future_vaast_file.zip">code zip file</a>. Unzip it.
+            Open VSCode and open the folder (from the Start page or via File>Open Folder).
           </p>
+          <img src="media/procedure/image.png" style="width: 40rem"></img>
+          <br>
+          <hr />
+          <p>
+            You should see two folders, named <em>incidental</em> and <em>explicit</em>. Each file contains all the needed files for the specific experiment.
+            Go to the <a href="index.php#2-versions">home page</a> to learn about the differences between the two versions.
+          </p>
+
           <h3>Example lists</h3>
           <p>
             This is some additional paragraph placeholder content. It's a
@@ -190,6 +189,9 @@
             Most of these elements are styled by browsers with few
             modifications on our part.
           </p>
+          <blockquote class="blockquote">
+            <p>Quoted text goes here.</p>
+          </blockquote>
           <h2>Heading</h2>
           <p>
             This is some additional paragraph placeholder content. It has been
@@ -213,7 +215,7 @@
             used throughout.
           </p>
         </article>
-        <article class="blog-post">
+        <article class="blog-post" id="first-step">
           <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
           <p class="blog-post-meta">
             December 23, 2020 by <a href="#">Jacob</a>
@@ -279,7 +281,7 @@
             used throughout.
           </p>
         </article>
-        <article class="blog-post">
+        <article class="blog-post" id="second-step">
           <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
           <p class="blog-post-meta">
             December 14, 2020 by <a href="#">Chris</a>
@@ -314,22 +316,20 @@
           <div class="p-4 mb-3 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
             <p class="mb-0">
-              Customize this section to tell your visitors a little bit about
-              your publication, writers, content, or something else entirely.
-              Totally up to you.
+              A little note: something important but not so bad if they miss it ???? -> add later
             </p>
           </div>
           <div>
-            <h4 class="fst-italic">Recent posts</h4>
+            <h4 class="fst-italic">The mock experiments</h4>
             <ul class="list-unstyled">
               <li>
                 <a
                   class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-                  href="explicit-vaast.php">          
+                  href="explicit-vaast.php">
                   <img src="/media/vaast-background_eco_vf.jpg" height="100">
                   <div class="col-lg-8">
                     <h6 class="mb-0">Try the explicit vaast!</h6>
-                    <small class="text-body-secondary">Click here</small>                                                                       <!-- replace by something else ? -->
+                    <small class="text-body-secondary">Click here</small> <!-- replace by something else ? -->
                   </div>
                 </a>
               </li>
@@ -340,35 +340,33 @@
                   <img src="/media/vaast-background_all_eco.jpg" height="100">
                   <div class="col-lg-8">
                     <h6 class="mb-0">Try the incidental vaast!</h6>
-                    <small class="text-body-secondary">Click here</small>                                                                       <!-- replace by something else ? -->
+                    <small class="text-body-secondary">Click here</small> <!-- replace by something else ? -->
                   </div>
                 </a>
               </li>
             </ul>
           </div>
           <div class="p-4">
-            <h4 class="fst-italic">Archives</h4>
+            <h4 class="fst-italic">Table of contents</h4>
             <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2021</a></li>
-              <li><a href="#">February 2021</a></li>
-              <li><a href="#">January 2021</a></li>
-              <li><a href="#">December 2020</a></li>
-              <li><a href="#">November 2020</a></li>
-              <li><a href="#">October 2020</a></li>
+              <li><a href="#before">Before anything</a></li>
+              <li><a href="#first-step">First step</a></li>
+              <li><a href="#second-step">Second step</a></li>
+              <!-- <li><a href="#third">January 2021</a></li>
+              <li><a href="#fourth">December 2020</a></li>
+              <li><a href="#fifth">November 2020</a></li>
               <li><a href="#">September 2020</a></li>
               <li><a href="#">August 2020</a></li>
               <li><a href="#">July 2020</a></li>
               <li><a href="#">June 2020</a></li>
               <li><a href="#">May 2020</a></li>
-              <li><a href="#">April 2020</a></li>
+              <li><a href="#">April 2020</a></li> -->
             </ol>
           </div>
           <div class="p-4">
             <h4 class="fst-italic">Elsewhere</h4>
             <ol class="list-unstyled">
               <li><a href="#">GitHub</a></li>
-              <li><a href="#">Social</a></li>
-              <li><a href="#">Facebook</a></li>
             </ol>
           </div>
         </div>

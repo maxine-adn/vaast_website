@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        
+        <!-- jsPsych core library and plugins -->
+    	<script src="https://unpkg.com/jspsych@8.2.1"></script>
+        <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.1.0"></script>
+
+        <!-- style sheet --> 
+    	<link href="https://unpkg.com/jspsych@8.2.1/css/jspsych.css" rel="stylesheet" type="text/css"/>
+    	<link href="../trials/css/custom.css" rel="stylesheet"/>
+    	<link href="https://fonts.googleapis.com/css?family=Questrial|Slabo+27px" rel="stylesheet"/>
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet"/>
+
+  	</head>
+  <body></body>
+  <script>
+
+const attention_check = {
+  type: jsPsychSurveyText,
+  data: {trial: "attention_check"},
+  preamble: "<p class ='instructions'>When asked for your favorite color, please enter the word baguette in the box below.</p>",
+  questions: [{
+    prompt: "<p class='instructions'>Based on the text above, what is your favorite color?</p>"
+  }],
+  button_label: "Submit",
+};
+
+var jsPsych = initJsPsych({
+  on_finish: function() {
+    jsPsych.data.displayData();
+  }
+});
+  
+const timeline = [];
+
+timeline.push(attention_check);
+
+// Launch experiment --------------------------------------------------------------------
+jsPsych.run(timeline);
+  </script>
+</html>

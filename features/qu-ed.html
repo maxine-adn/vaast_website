@@ -5,7 +5,7 @@
 
     <!-- jsPsych core library and plugins -->
     <script src="https://unpkg.com/jspsych@8.2.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@2.1.0"></script>
 
     <!-- style sheet -->
     <link
@@ -25,15 +25,22 @@
   </head>
   <body></body>
   <script>
-    const attention_check = {
-      type: jsPsychSurveyText,
-      data: { trial: "attention_check" },
-      preamble:
-        "<p class ='instructions'>When asked for your favorite color, please enter the word baguette in the box below.</p>",
+    const extra_information_edu = {
+      type: jsPsychSurveyMultiChoice,
       questions: [
         {
-          prompt:
-            "<p class='instructions'>Based on the text above, what is your favorite color?</p>",
+          prompt: "What is your highest level of education?",
+          options: [
+            "&nbspDid not complete high school",
+            "&nbspHigh school/GED",
+            "&nbspSome college",
+            "&nbspBachelor's degree",
+            "&nbspMaster's degree",
+            "&nbspAdvanced graduate work or Ph.D.",
+          ],
+          required: true,
+          horizontal: false,
+          name: "education",
         },
       ],
       button_label: "Submit",
@@ -47,7 +54,7 @@
 
     const timeline = [];
 
-    timeline.push(attention_check);
+    timeline.push(extra_information_edu);
 
     // Launch experiment --------------------------------------------------------------------
     jsPsych.run(timeline);

@@ -90,7 +90,7 @@ body {
 }
 
 .feature-code {
-  border-radius: 25px;
+  border-radius: 20px;
   /* background-color: #292c35; */
   margin-bottom: 0px;
 }
@@ -120,8 +120,8 @@ body {
   right: 10px;
   background-color: #212529;
   color: #ffffff;
-  border-radius: 15px;
-  padding: 8px 12px;
+  border-radius: 12px;
+  padding: 5px 10px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -149,77 +149,19 @@ button:disabled {
 
 .copy-tl {
   top: 7.5px;
-  border-radius: 12px;
   align-items: center;
-  padding: 5px 10px;
 }
 
 /* Show and hide panel button */
 
-.showAndHide {
+/* .showAndHide {
   top: 10px;
   z-index: 10001;
-}
+} */
 
-#elementToWorkOn {
-  display: none; /* caché par défaut */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999; /* au-dessus de tout */
-  background: #e0e0e0; /* optionnel, pour effet overlay */
-  /* padding: 2rem; */
-  border-radius: 15px;
-}
 
-iframe {
-  position: absolute;
-  border-radius: 25px; 
-  background: #fff; 
-  margin: 12px 12px; 
-  height: 85%;
-  width: -moz-available;          /* Firefox */
-  width: -webkit-fill-available;  /* Chrome/Safari */
-  width: fill-available;          /* Standard (not widely supported yet) */
-  bottom: 0;
-}
-
-#demo-placeholder {
-  position: absolute;
-  border-radius: 25px; 
-  background: #fff; 
-  margin: 12px 12px; 
-  height: 85%;
-  width: -moz-available;          /* Firefox */
-  width: -webkit-fill-available;  /* Chrome/Safari */
-  width: fill-available;          /* Standard (not widely supported yet) */
-  bottom: 0;
-}
-
-#run-demo-btn {
-  position: absolute;
-  background-color: #292c35;
-  color: #ffffff;
-  border-radius: 15px;
-  padding: 8px 12px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  align-self: center;
-}
-
-#open-demo {
-  position: absolute;
+.open-demo {
   top: 10px;
-  left: 10px;
-  background-color: #f1f1f1;
-  /* color: #292c35; */
-  border-radius: 15px;
-  padding: 8px 12px;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  z-index: 10001;
 }
 

@@ -25,18 +25,29 @@
   </head>
   <body></body>
   <script>
-    const attention_check = {
-      type: jsPsychSurveyText,
-      data: { trial: "attention_check" },
-      preamble:
-        "<p class ='instructions'>When asked for your favorite color, please enter the word baguette in the box below.</p>",
-      questions: [
+    const extra_information_age = {
+      timeline: [
         {
-          prompt:
-            "<p class='instructions'>Based on the text above, what is your favorite color?</p>",
+          type: jsPsychSurveyText,
+          questions: [
+            { prompt: "How old are you?", required: true, name: "age" },
+          ],
+          button_label: "Confirm",
         },
       ],
-      button_label: "Submit",
+      loop_function: function () {
+        let trial_data = jsPsych.data.getLastTrialData().values()[0];
+        let age = "";
+        if (trial_data.response && trial_data.response.age !== undefined) {
+          age = trial_data.response.age.trim();
+        }
+        // Checks whether the given answer is a number or not (if not, asks to answer again)
+        if (!/^\d+$/.test(age) || parseInt(age) < 1) {
+          alert("Please enter your age as a number (e.g., 25).");
+          return true; // asks again
+        }
+        return false;
+      },
     };
 
     var jsPsych = initJsPsych({
@@ -47,7 +58,7 @@
 
     const timeline = [];
 
-    timeline.push(attention_check);
+    timeline.push(extra_information_age);
 
     // Launch experiment --------------------------------------------------------------------
     jsPsych.run(timeline);

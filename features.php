@@ -272,11 +272,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-              <button type="button" class="showAndHide top-buttons" onClick="showOrHide()">
-                <ion-icon name="eye-outline" class="show-hide-icon"></ion-icon>
-                <span class="button-label">Show panel</span>
-              </button>
-
+              <a target="_blank" rel="noopener noreferrer" href="features/bw-check.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-bc"><code>timeline.push(browser_check)</code></pre>
@@ -284,13 +280,6 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-            </div>
-            <div id="elementToWorkOn" style="display: none">
-                <!-- <meta url="features/bw-check.html"/> -->
-                <a target="_blank" rel="noopener noreferrer" href="features/bw-check.html" id="open-demo">Open demo in new tab</a>
-                <div id="demo-placeholder">
-                  <button id="run-demo-btn" class="position-absolute top-50 start-50 translate-middle">Run demo</button>
-                </div>
             </div>
           </div>
         </div>
@@ -323,6 +312,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/att-check.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-ac"><code>timeline.push(attention_check)</code></pre>
@@ -362,6 +352,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/demo-qu.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-dq"><code>timeline.push(vaast_demographic_questions)</code></pre>
@@ -381,6 +372,7 @@
             <h2 class="featurette-heading fw-normal lh-1 demo-question-title">
               Age: <span class="lead">Their answer must be a positive numeric value</span>
             </h2>
+            <p>* Be aware that every wrong answer the participant makes is still saved, only use the last (valid) anwser in your analysis.</p>
           </div>
           <div class="p-2">
             <div class="dadscopy">
@@ -410,6 +402,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/qu-age.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-age"><code>timeline.push(extra_information_age)</code></pre>
@@ -443,6 +436,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/qu-sex.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-sex"><code>timeline.push(extra_information_sex)</code></pre>
@@ -476,6 +470,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/qu-eng.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-eng"><code>timeline.push(extra_information_fluency)</code></pre>
@@ -509,6 +504,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/qu-ses.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-ses"><code>timeline.push(extra_information_ses)</code></pre>
@@ -542,6 +538,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/qu-ed.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-ed"><code>timeline.push(extra_information_edu)</code></pre>
@@ -573,6 +570,7 @@
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
+              <a target="_blank" rel="noopener noreferrer" href="features/remarks.html" class="open-demo top-buttons">Open demo in new tab</a>
             </div>
             <div class="dadscopy">
               <pre class="push-tl push-rem"><code>timeline.push(extra_information_remarks)</code></pre>
@@ -604,7 +602,7 @@
     class="astro-vvvwv3sm"></script>
   <script src="js/copy-button.js"></script>
   <script src="js/active-hd.js"></script>
-  <script src="js/show-hide-button.js"></script>
+  <!-- <script src="js/show-hide-button.js"></script> -->
 </body>
 
 </html>

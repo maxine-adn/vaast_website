@@ -5,7 +5,7 @@
 
     <!-- jsPsych core library and plugins -->
     <script src="https://unpkg.com/jspsych@8.2.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@2.1.0"></script>
 
     <!-- style sheet -->
     <link
@@ -25,18 +25,18 @@
   </head>
   <body></body>
   <script>
-    const attention_check = {
-      type: jsPsychSurveyText,
-      data: { trial: "attention_check" },
-      preamble:
-        "<p class ='instructions'>When asked for your favorite color, please enter the word baguette in the box below.</p>",
+    const extra_information_sex = {
+      type: jsPsychSurveyMultiChoice,
       questions: [
         {
-          prompt:
-            "<p class='instructions'>Based on the text above, what is your favorite color?</p>",
+          prompt: "Please indicate your sex:",
+          options: ["&nbspMale", "&nbspFemale", "&nbspOther"],
+          required: true,
+          horizontal: true,
+          name: "sex",
         },
       ],
-      button_label: "Submit",
+      button_label: "Confirm",
     };
 
     var jsPsych = initJsPsych({
@@ -47,7 +47,7 @@
 
     const timeline = [];
 
-    timeline.push(attention_check);
+    timeline.push(extra_information_sex);
 
     // Launch experiment --------------------------------------------------------------------
     jsPsych.run(timeline);

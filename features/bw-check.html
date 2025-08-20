@@ -1,54 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"> 
-        
-        <!-- jsPsych core library and plugins -->
-    	<script src="https://unpkg.com/jspsych@8.2.1"></script>
-        <script src="https://unpkg.com/@jspsych/plugin-browser-check@2.1.0"></script>
+  <head>
+    <meta charset="utf-8" />
 
-        <!-- style sheet --> 
-    	<link href="https://unpkg.com/jspsych@8.2.1/css/jspsych.css" rel="stylesheet" type="text/css"/>
-    	<link href="../trials/css/custom.css" rel="stylesheet"/>
-    	<link href="https://fonts.googleapis.com/css?family=Questrial|Slabo+27px" rel="stylesheet"/>
-        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet"/>
+    <!-- jsPsych core library and plugins -->
+    <script src="https://unpkg.com/jspsych@8.2.1"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-browser-check@2.1.0"></script>
 
-  	</head>
+    <!-- style sheet -->
+    <link
+      href="https://unpkg.com/jspsych@8.2.1/css/jspsych.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="../trials/css/custom.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Questrial|Slabo+27px"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
   <body></body>
   <script>
+    const browser_check = {
+      type: jsPsychBrowserCheck,
+      features: ["browser", "mobile", "width", "height"],
+      allow_window_resize: true,
+      minimum_height: 600,
+      minimum_width: 800,
+      inclusion_function: (data) => {
+        return (
+          (data.browser === "chrome" || data.browser === "firefox") &&
+          data.mobile === false
+        );
+      },
+      exclusion_message: (data) => {
+        if (data.mobile) {
+          return "<p>You must use a desktop/laptop computer to participate in this experiment.</p>";
+        } else if (data.browser !== "firefox" && data.browser !== "chrome") {
+          return (
+            "<p>Unfortunately, this study is not compatible with your browser.</p>" +
+            "<p>Please reopen this experiment from a supported browser (like Chrome or Firefox).</p>"
+          );
+        } else {
+          return "<p>Unfortunately, this study is not compatible with your window size.</p>";
+        }
+      },
+    };
 
-const browser_check = {
-  type: jsPsychBrowserCheck,
-  features : ["browser", "mobile", "width", "height"],
-  allow_window_resize: true,
-  minimum_height: 600,
-  minimum_width: 800,
-  inclusion_function: (data) => {
-    return (data.browser === 'chrome' || data.browser === 'firefox') && data.mobile === false
-  },
-  exclusion_message: (data) => {
-    if(data.mobile){
-      return '<p>You must use a desktop/laptop computer to participate in this experiment.</p>';
-    } else if (data.browser !== 'firefox' && data.browser !== 'chrome') {
-      return '<p>Unfortunately, this study is not compatible with your browser.</p>' +
-        '<p>Please reopen this experiment from a supported browser (like Chrome or Firefox).</p>'
-    } else {
-        return '<p>Unfortunately, this study is not compatible with your window size.</p>'
-    }
-  }
-};
+    var jsPsych = initJsPsych({
+      on_finish: function () {
+        jsPsych.data.displayData();
+      },
+    });
 
-var jsPsych = initJsPsych({
-  on_finish: function() {
-    jsPsych.data.displayData();
-  }
-});
-  
-const timeline = [];
+    const timeline = [];
 
-timeline.push(browser_check);
+    timeline.push(browser_check);
 
-// Launch experiment --------------------------------------------------------------------
-jsPsych.run(timeline);
+    // Launch experiment --------------------------------------------------------------------
+    jsPsych.run(timeline);
   </script>
 </html>

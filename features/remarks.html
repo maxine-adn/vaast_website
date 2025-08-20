@@ -25,15 +25,12 @@
   </head>
   <body></body>
   <script>
-    const attention_check = {
+    const extra_information_remarks = {
       type: jsPsychSurveyText,
-      data: { trial: "attention_check" },
-      preamble:
-        "<p class ='instructions'>When asked for your favorite color, please enter the word baguette in the box below.</p>",
       questions: [
         {
-          prompt:
-            "<p class='instructions'>Based on the text above, what is your favorite color?</p>",
+          prompt: "Do you have any remarks about this study? [Optional]",
+          name: "remarks",
         },
       ],
       button_label: "Submit",
@@ -47,7 +44,7 @@
 
     const timeline = [];
 
-    timeline.push(attention_check);
+    timeline.push(extra_information_remarks);
 
     // Launch experiment --------------------------------------------------------------------
     jsPsych.run(timeline);

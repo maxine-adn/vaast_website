@@ -29,11 +29,11 @@
           Something important enough to write here, that I don't repeat later on...
         </p>
         <p class="lead mb-0">
-          <a href="#you-got-this" class="text-body-emphasis fw-bold">Continue reading...</a>
+          <a href="#what-you-need" class="text-body-emphasis fw-bold">Continue reading...</a>
         </p>
       </div>
     </div>
-    <div class="row mb-2">
+    <div class="row mb-3">
       <div class="col-md-6">
         <div
           class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -79,7 +79,7 @@
       <div class="col-md-8">
         <!-- <h3 class="pb-4 mb-4 fst-italic border-bottom" id="you-got-this">You got this!</h3> -->
         <article class="blog-post" id="before">
-          <h2 class="display-5 link-body-emphasis mb-1">What you need</h2>
+          <h2 class="display-5 link-body-emphasis mb-1" id="what-you-need">What you need</h2>
           <p class="blog-post-meta">
             Applications and Websites
           </p>
@@ -89,199 +89,115 @@
           </p>
           <hr />
           <p>
-            For this set up, we chose to use <a href="https://docs.github.com/en/pages">GitHub Pages</a> and <a href="https://osf.io/">OSF (Open Science Framework)</a>.
+            For this set up, we chose to use <a href="https://docs.github.com/en/pages">GitHub Pages</a>, <a href="https://osf.io/">OSF (Open Science Framework)</a> and <a href="https://pipe.jspsych.org/">DataPipe</a>.
             We'll use GitHub Pages to host the experiment online. For that we'll need a GitHub account.
             We'll use OSF to store the resulting data, you'll need an account here as well.
+            We'll use DataPipe to be the bridge between the two previous tools.
             <br>
             If you use other <strong>things</strong>, feel free to make the necessary adjustments.
             Otherwise, log onto these websites or create an account on each using the <em>Sign Up</em> button:
           <ul>
             <li><a href="https://github.com/">GitHub</a></li>
             <li><a href="https://osf.io/">OSF</a></li>
+            <li><a href="https://pipe.jspsych.org/">DataPipe</a></li>
           </ul>
           </p>
+
           <h2>Set up Visual Studio Code</h2>
           <p>
             Download the following <a href="future_vaast_file.zip">code zip file</a>. Unzip it.
             Open VSCode and open the folder (from the Start page or via File>Open Folder).
           </p>
-          <img src="media/procedure/image.png" style="width: 40rem"></img>
+            <img class="img-fluid" src="media/procedure/image.png" style="max-width: 100%; height: auto;"></img>
           <br>
           <hr />
           <p>
             You should see two folders, named <em>incidental</em> and <em>explicit</em>. Each file contains all the needed files for the specific experiment.
             Go to the <a href="index.php#2-versions">home page</a> to learn about the differences between the two versions.
+            <br>
+            Now, you'll go to the left-hand side of your VSCode to the <strong>INSERT SYMBOL</strong> logo. There, you will set up your distant GitHub repository.
+            You'll be asked to connect to your GitHub account.
+            You should then choose a public repository.
           </p>
 
-          <h3>Example lists</h3>
+          <h3>Make all the necessary changes</h3>
           <p>
-            This is some additional paragraph placeholder content. It's a
-            slightly shorter version of the other highly repetitive body text
-            used throughout. This is an example unordered list:
+            Once you have linked your local version of the file to the distant one, you can start making the changes you want.
+            Know that to save these changes to the distant repository (online on GitHub), you'll need to do 'git add .' then 'git push' and add a message,
+            click the tick on the top-right-hand side corner to validate.
+            This will update your distant repository with the local changes.
+          </p>
+          <p>
+            Whether you chose the incidental or the explicit version, there are a number of changes you could make.
+            Here's a (non-exhaustive) list of things you might want to change, according to the specific experiment you want to run:
           </p>
           <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
+            <li>The stimuli (words)</li>
+            <li>The background images (see <a href="index.php#background-images">this paragraph</a> in the home page, for more information on the different backgrounds available)</li>
+            <li>The amount of training and testing trials (how many times the participants see a stimulus that they have to approach/avoid)</li>
+            <li>The instructions</li>
+            <li>The end:
+              <ul>
+                <li>Adding demographic questions</li>
+                <li>The end page</li>
+              </ul>
+            </li>
+            <li>???</li>
           </ul>
-          <p>And this is an ordered list:</p>
-          <ol>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ol>
-          <p>And this is a definition list:</p>
-          <dl>
-            <dt>HyperText Markup Language (HTML)</dt>
-            <dd>
-              The language used to describe and define the content of a Web
-              page
-            </dd>
-            <dt>Cascading Style Sheets (CSS)</dt>
-            <dd>Used to describe the appearance of Web content</dd>
-            <dt>JavaScript (JS)</dt>
-            <dd>
-              The programming language used to build advanced Web sites and
-              applications
-            </dd>
-          </dl>
-          <h2>Inline HTML elements</h2>
-          <p>
-            HTML defines a long list of available inline tags, a complete list
-            of which can be found on the
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.
-          </p>
-          <ul>
-            <li>
-              <strong>To bold text</strong>, use
-              <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.
-            </li>
-            <li>
-              <em>To italicize text</em>, use
-              <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.
-            </li>
-            <li>
-              Abbreviations, like
-              <abbr title="HyperText Markup Language">HTML</abbr> should use
-              <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional
-              <code class="language-plaintext highlighter-rouge">title</code>
-              attribute for the full phrase.
-            </li>
-            <li>
-              Citations, like <cite>— Mark Otto</cite>, should use
-              <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.
-            </li>
-            <li>
-              <del>Deleted</del> text should use
-              <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code>
-              and <ins>inserted</ins> text should use
-              <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.
-            </li>
-            <li>
-              Superscript <sup>text</sup> uses
-              <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code>
-              and subscript <sub>text</sub> uses
-              <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
-            </li>
-          </ul>
-          <p>
-            Most of these elements are styled by browsers with few
-            modifications on our part.
-          </p>
-          <blockquote class="blockquote">
-            <p>Quoted text goes here.</p>
-          </blockquote>
-          <h2>Heading</h2>
-          <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
-          </p>
-          <h3>Sub-heading</h3>
-          <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
-          </p>
-          <pre><code>Example code block</code></pre>
-          <p>
-            This is some additional paragraph placeholder content. It's a
-            slightly shorter version of the other highly repetitive body text
-            used throughout.
+          <hr />
+          <p>Now that you've made all the changes you want, it's time to dive into how to save your data.
+            As explained above, we'll use OSF (Open Science Framework) to hold the data.
           </p>
         </article>
-        <article class="blog-post" id="first-step">
-          <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
-          <p class="blog-post-meta">
-            December 23, 2020 by <a href="#">Jacob</a>
-          </p>
-          <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
-          </p>
-          <blockquote>
-            <p>
-              Longer quote goes here, maybe with some
-              <strong>emphasized text</strong> in the middle of it.
-            </p>
-          </blockquote>
-          <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
-          </p>
-          <h3>Example table</h3>
-          <p>And don't forget about tables in these posts:</p>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Upvotes</th>
-                <th>Downvotes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Alice</td>
-                <td>10</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Bob</td>
-                <td>4</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Charlie</td>
-                <td>7</td>
-                <td>9</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td>Totals</td>
-                <td>21</td>
-                <td>23</td>
-              </tr>
-            </tfoot>
-          </table>
-          <p>
-            This is some additional paragraph placeholder content. It's a
-            slightly shorter version of the other highly repetitive body text
-            used throughout.
-          </p>
-        </article>
+
         <article class="blog-post" id="second-step">
+          <h2 class="display-5 link-body-emphasis mb-1">Data and Availability online</h2>
+          <p class="blog-post-meta">
+            OSF, DataPipe and GitHub Pages
+          </p>
+          <p>
+          DataPipe is an API (Application Programming Interface) created by the developpers of JsPsych for sending data from your behavioral experiments to the Open Science Framework, for free. 
+          Check out more information on <a href=https://pipe.jspsych.org/getting-started>getting started with DataPipe</a>. 
+          </p>
+          <h2>Setting up DataPipe and OSF</h2>
+          <p>Here, find a recap of the different tasks you'll need to engage in.
+          <ol>
+            <li>Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</li>
+            <li>Create an authorization token on OSF (write_only authorization) and make sure to <strong>save this token</strong>. You only need to do this <strong>once</strong>, <strong>not for every experiment</strong>.</li>
+            <li>Create the study in DataPipe. Use the OSF URL code previously copied. For the component to create in OSF, enter 'data'. This automatically creates a component on the OSF page.</li>          
+            <img class="img-fluid" src="media/datapipe-settings.png" style="max-width: 100%; height: auto;">
+            <li>Paste the different elements given by DataPipe in your Javascript code and in the index file.</li>
+              <ul>
+                <li>Uncomment this line in the index.html file : <code><script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script></code></li>
+                <li>
+                  const subject_id = jsPsych.randomization.randomID(10);
+                  const filename = `${subject_id}.csv`;
+                </li>
+                <li>
+                  const save_data = {
+                    type: jsPsychPipe,
+                    action: "save",
+                    experiment_id: "your-experiment-id",
+                    filename: filename,
+                    data_string: ()=>jsPsych.data.get().csv()
+                  };
+                  don't forget to replace "your-experiment-id" by the real code between quotation marks</li>
+              </ul>
+            <li>Try your experiment to test if data is saved on OSF.</li>
+            <li>Use the GitHub Pages URL to share your experiment (on whichever platform you use).</li>
+          </ol>
+          <h2>Using GitHub Pages to access the experiment online</h2>
+          <p>Visit the remote (on GitHub) version of your experiment. Click on Settings, below 'Code and automation', find Pages. 
+            Choose 'deploy from a branch' and the branch your experiment is on (usually main).</p>
+          <p>Wait a few minutes and reload the current page you're on. 
+            At the top of your screen you should see '<em>Your site is live at https://your-username.github.io/repo-name/</em>', 
+            click on the <strong>Visit site</strong> button to see your published site.</p>
+          <p>You can now use this URL to share your experiment.</p>
+          <p>Please note, it might take <strong>up to 10 minutes</strong> for any changes you make to the files to be visible.</p>
+         
+        </article>
+
+        <!-- <article class="blog-post" id="second-step">
           <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
           <p class="blog-post-meta">
             December 14, 2020 by <a href="#">Chris</a>
@@ -303,17 +219,11 @@
             slightly shorter version of the other highly repetitive body text
             used throughout.
           </p>
-        </article>
-        <nav class="blog-pagination" aria-label="Pagination">
-          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-          <a
-            class="btn btn-outline-secondary rounded-pill disabled"
-            aria-disabled="true">Newer</a>
-        </nav>
+        </article> -->
       </div>
       <div class="col-md-4">
         <div class="position-sticky" style="top: 2rem">
-          <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <div class="p-4 mb-5 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
             <p class="mb-0">
               A little note: something important but not so bad if they miss it ???? -> add later

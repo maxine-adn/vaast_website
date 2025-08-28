@@ -1,24 +1,33 @@
-<footer>
-  <div id="spaceFooter">
-    <div>
-      <h1>Nous contacter</h1>
-      <p class="up">Adresse</p>
-      <p class="down">Université Grenoble Alpes CS 40700 38058 Grenoble cedex 9</p>
-      <p class="up">E-mail / Téléphone</p>
-      <p class="down">contact@univ.grenoble-alpes.fr</p>
-      <p class="down">+33 (0)4 57 42 21 42</p>
-    </div>
-
-    <div id="contact">
-      <form method="post" action="">
-        <input type="text" id="nameInput" placeholder="Name" autocomplete="off" required><br>
-        <input type="text" id="emailInput" placeholder="E-mail" autocomplete="off" required><br>
-        <textarea id="sendInput" placeholder="Your message..." autocomplete="off"></textarea>
-        <button id="envoyer">Envoyer</button>
-      </form>
-    </div>
-  </div>
-</footer>
-</body>
-
-</html>
+<div class="container-sm">
+  <footer
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">
+      &copy; 2025 Company, Inc
+    </p>
+    <!-- <a
+      href="/"
+      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+      aria-label="Bootstrap">
+      <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+    </a> -->
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item">
+        <a href="/index.php" class="nav-link px-2 text-body-secondary">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#/features.php" class="nav-link px-2 text-body-secondary">Features</a>
+      </li>
+      <li class="nav-item">
+        <a href="/trials.php" class="nav-link px-2 text-body-secondary">Try it out!</a>
+      </li>
+      <li class="nav-item">
+        <a href="/set-up.php" class="nav-link px-2 text-body-secondary">Set-up</a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact.php" class="nav-link px-2 text-body-secondary">Contact</a>
+      </li>
+    </ul>
+  </footer>
+</div>

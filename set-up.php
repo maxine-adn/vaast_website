@@ -14,6 +14,17 @@
     rel="stylesheet" />
   <link href="css/set-up.css" rel="stylesheet" />
   <link href="css/all.css" rel="stylesheet" />
+
+  <!-- icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- code highlighter: -->
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </head>
 
 <body>
@@ -84,43 +95,44 @@
             Applications and Websites
           </p>
           <p>
-            You will need a <strong>development environment</strong>, like <a href="https://code.visualstudio.com/">Visual Studio Code</a> (which we will use in this set-up).
+            You will need a <strong>development environment</strong>, like <a target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/">Visual Studio Code</a> (which we will use in this set-up).
             If you don't have one yet, you can download one or use the web version if they have one.
           </p>
           <hr />
           <p>
-            For this set up, we chose to use <a href="https://docs.github.com/en/pages">GitHub Pages</a>, <a href="https://osf.io/">OSF (Open Science Framework)</a> and <a href="https://pipe.jspsych.org/">DataPipe</a>.
+            For this set up, we chose to use <a target="_blank" rel="noopener noreferrer" href="https://docs.github.com/en/pages">GitHub Pages</a>, <a target="_blank" rel="noopener noreferrer" href="https://osf.io/">OSF (Open Science Framework)</a> and <a target="_blank" rel="noopener noreferrer" href="https://pipe.jspsych.org/">DataPipe</a>.
             We'll use GitHub Pages to host the experiment online. For that we'll need a GitHub account.
             We'll use OSF to store the resulting data, you'll need an account here as well.
             We'll use DataPipe to be the bridge between the two previous tools.
             <br>
-            If you use other <strong>things</strong>, feel free to make the necessary adjustments.
+            If you use other tools, feel free to make the necessary adjustments.
             Otherwise, log onto these websites or create an account on each using the <em>Sign Up</em> button:
           <ul>
-            <li><a href="https://github.com/">GitHub</a></li>
-            <li><a href="https://osf.io/">OSF</a></li>
-            <li><a href="https://pipe.jspsych.org/">DataPipe</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/">GitHub</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://osf.io/">OSF</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://pipe.jspsych.org/">DataPipe</a></li>
           </ul>
           </p>
 
-          <h2>Set up Visual Studio Code</h2>
+          <h2 id="two-folders">Set up Visual Studio Code</h2>
           <p>
             Download the following <a href="future_vaast_file.zip">code zip file</a>. Unzip it.
             Open VSCode and open the folder (from the Start page or via File>Open Folder).
           </p>
-            <img class="img-fluid" src="media/procedure/image.png" style="max-width: 100%; height: auto;"></img>
+          <img class="img-fluid" src="media/procedure/image.png" style="max-width: 100%; height: auto;"></img>
           <br>
           <hr />
           <p>
             You should see two folders, named <em>incidental</em> and <em>explicit</em>. Each file contains all the needed files for the specific experiment.
             Go to the <a href="index.php#2-versions">home page</a> to learn about the differences between the two versions.
             <br>
-            Now, you'll go to the left-hand side of your VSCode to the <strong>INSERT SYMBOL</strong> logo. There, you will set up your distant GitHub repository.
+            Now, you'll go to the left-hand side of your VSCode to the Source Control logo (<ion-icon name="git-branch-outline"></ion-icon>). There, you will set up your distant GitHub repository.
             You'll be asked to connect to your GitHub account.
             You should then choose a public repository.
+            Visit this VSCode <a  target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/docs/sourcecontrol/overview#_initialize-a-repository">page</a> if you have any trouble at this time.
           </p>
 
-          <h3>Make all the necessary changes</h3>
+          <h3 id="changes">Make all the necessary changes</h3>
           <p>
             Once you have linked your local version of the file to the distant one, you can start making the changes you want.
             Know that to save these changes to the distant repository (online on GitHub), you'll need to do 'git add .' then 'git push' and add a message,
@@ -144,57 +156,92 @@
             </li>
             <li>???</li>
           </ul>
+
           <hr />
+          <p>At any time, if you want to try the experiment you can use the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> VSCode extension that you can download directly from the application.
+          </p>
           <p>Now that you've made all the changes you want, it's time to dive into how to save your data.
             As explained above, we'll use OSF (Open Science Framework) to hold the data.
           </p>
         </article>
 
-        <article class="blog-post" id="second-step">
+        <article class="blog-post" id="data-online">
           <h2 class="display-5 link-body-emphasis mb-1">Data and Availability online</h2>
           <p class="blog-post-meta">
             OSF, DataPipe and GitHub Pages
           </p>
           <p>
-          DataPipe is an API (Application Programming Interface) created by the developpers of JsPsych for sending data from your behavioral experiments to the Open Science Framework, for free. 
-          Check out more information on <a href=https://pipe.jspsych.org/getting-started>getting started with DataPipe</a>. 
+            DataPipe is an API (Application Programming Interface) created by the developpers of JsPsych for sending data from your behavioral experiments to the Open Science Framework, for free.
+            Check out more information on <a target="_blank" rel="noopener noreferrer" href=https://pipe.jspsych.org/getting-started>getting started with DataPipe</a>.
           </p>
-          <h2>Setting up DataPipe and OSF</h2>
-          <p>Here, find a recap of the different tasks you'll need to engage in.
-          <ol>
-            <li>Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</li>
-            <li>Create an authorization token on OSF (write_only authorization) and make sure to <strong>save this token</strong>. You only need to do this <strong>once</strong>, <strong>not for every experiment</strong>.</li>
-            <li>Create the study in DataPipe. Use the OSF URL code previously copied. For the component to create in OSF, enter 'data'. This automatically creates a component on the OSF page.</li>          
-            <img class="img-fluid" src="media/datapipe-settings.png" style="max-width: 100%; height: auto;">
-            <li>Paste the different elements given by DataPipe in your Javascript code and in the index file.</li>
-              <ul>
-                <li>Uncomment this line in the index.html file : <code><script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script></code></li>
-                <li>
-                  const subject_id = jsPsych.randomization.randomID(10);
-                  const filename = `${subject_id}.csv`;
-                </li>
-                <li>
-                  const save_data = {
-                    type: jsPsychPipe,
-                    action: "save",
-                    experiment_id: "your-experiment-id",
-                    filename: filename,
-                    data_string: ()=>jsPsych.data.get().csv()
-                  };
-                  don't forget to replace "your-experiment-id" by the real code between quotation marks</li>
-              </ul>
-            <li>Try your experiment to test if data is saved on OSF.</li>
-            <li>Use the GitHub Pages URL to share your experiment (on whichever platform you use).</li>
-          </ol>
-          <h2>Using GitHub Pages to access the experiment online</h2>
-          <p>Visit the remote (on GitHub) version of your experiment. Click on Settings, below 'Code and automation', find Pages. 
+          <h2 id="DataPipe-OSF">Setting up DataPipe and OSF</h2>
+          <p>Here, find a recap of the different tasks you'll need to engage in, in order.
+
+
+          <ul class="list-group list-group">
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+              <label class="form-check-label" for="firstCheckbox">Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+              <label class="form-check-label" for="secondCheckbox">Create an authorization token on OSF (write_only authorization) and make sure to <strong>save this token</strong>. <br> You only need to do this <strong>once</strong>, <strong>not for every experiment</strong>.</label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+              <label class="form-check-label" for="thirdCheckbox">Create the study in DataPipe. Use the OSF URL code previously copied. <br> For the component to create in OSF, enter 'data'. <br>This automatically creates a component on the OSF page.
+                <!-- <img class="img-fluid" src="media/datapipe-settings.png" style="max-width: 100%; height: auto;"> -->
+              </label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="fourthCheckbox">
+              <label class="form-check-label" for="fourthCheckbox">Paste the different elements given by DataPipe in your Javascript code and in the index file:
+              </label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
+              <label class="form-check-label" for="fifthCheckbox">
+                Uncomment this line in the <code>index.html</code> file:
+                <br>
+                <pre><code>&lt;script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"&gt;&lt;/script&gt;</code></pre>
+              </label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="sixthCheckbox">
+              <label class="form-check-label" for="sixthCheckbox">Add these lines to the <code>experiment.js</code> file:
+                <br>
+                <pre><code>const subject_id = jsPsych.randomization.randomID(10);</code></pre>
+                <pre><code>const filename = `${subject_id}.csv`;</code></pre>
+                <pre><code>const save_data = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: "your-experiment-id",
+  filename: filename,
+  data_string: ()=>jsPsych.data.get().csv()
+ };</code></pre>
+                Don't forget to replace <code>"your-experiment-id"</code> by the real code between quotation marks
+              </label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="seventhCheckbox">
+              <label class="form-check-label" for="seventhCheckbox">Try your experiment with the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> to test if the data is saved on OSF.</label>
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" id="eighthCheckbox">
+              <label class="form-check-label" for="eighthCheckbox">Use the GitHub Pages URL to share your experiment (on whichever platform you use).</label>
+            </li>
+          </ul>
+          <br>
+
+          <h2 id="GitHub-pages">Using GitHub Pages to access the experiment online</h2>
+          <p>Visit the remote (on GitHub) version of your experiment. Click on Settings, below 'Code and automation', find Pages.
             Choose 'deploy from a branch' and the branch your experiment is on (usually main).</p>
-          <p>Wait a few minutes and reload the current page you're on. 
-            At the top of your screen you should see '<em>Your site is live at https://your-username.github.io/repo-name/</em>', 
+          <p>Wait a few minutes and reload the current page you're on.
+            At the top of your screen you should see '<em>Your site is live at https://your-username.github.io/repo-name/</em>',
             click on the <strong>Visit site</strong> button to see your published site.</p>
           <p>You can now use this URL to share your experiment.</p>
           <p>Please note, it might take <strong>up to 10 minutes</strong> for any changes you make to the files to be visible.</p>
-         
+
         </article>
 
         <!-- <article class="blog-post" id="second-step">
@@ -226,7 +273,8 @@
           <div class="p-4 mb-5 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
             <p class="mb-0">
-              A little note: something important but not so bad if they miss it ???? -> add later
+              Read about the experiment in <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">this article</a>, 
+              or go back to the <a href="index.php">home page</a> to find out more about the different versions or the background images.
             </p>
           </div>
           <div>
@@ -259,18 +307,12 @@
           <div class="p-4">
             <h4 class="fst-italic">Table of contents</h4>
             <ol class="list-unstyled mb-0">
-              <li><a href="#before">Before anything</a></li>
-              <li><a href="#first-step">First step</a></li>
-              <li><a href="#second-step">Second step</a></li>
-              <!-- <li><a href="#third">January 2021</a></li>
-              <li><a href="#fourth">December 2020</a></li>
-              <li><a href="#fifth">November 2020</a></li>
-              <li><a href="#">September 2020</a></li>
-              <li><a href="#">August 2020</a></li>
-              <li><a href="#">July 2020</a></li>
-              <li><a href="#">June 2020</a></li>
-              <li><a href="#">May 2020</a></li>
-              <li><a href="#">April 2020</a></li> -->
+              <li><a href="#before">What you need</a></li>
+              <li><a href="#two-folders">Set up Visual Studio Code</a></li>
+              <li><a href="#changes">Make all the necessary changes</a></li>
+              <li><a href="#data-online">Data and Availability online</a></li>
+              <li><a href="#DataPipe-OSF">Setting up DataPipe and OSF</a></li>
+              <li><a href="#GitHub-pages">Using GitHub Pages</a></li>
             </ol>
           </div>
           <div class="p-4">
@@ -283,14 +325,7 @@
       </div>
     </div>
   </main>
-  <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-    <p>
-      Blog template built for
-      <a href="https://getbootstrap.com/">Bootstrap</a> by
-      <a href="https://x.com/mdo">@mdo</a>.
-    </p>
-    <p class="mb-0"><a href="#">Back to top</a></p>
-  </footer>
+  <?php include 'footer.php'; ?>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

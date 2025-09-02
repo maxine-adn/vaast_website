@@ -18,13 +18,13 @@
 
 <body class="d-flex h-100"> <!-- .text-center -->
   <?php include 'color-modes.php'; ?>
-  <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 mx-auto flex-column">
     <?php include 'header.php'; ?>
     <main class="container-sm px-3">
 
       <div class="px-0 pt-4 my-5 text-center border-bottom">
         <h2 class="mb-3">A highly replicable implicit measure of attitudes:</h2>
-        <h1 class="display-5 fw-bold text-body-emphasis mb-4" id="title">
+        <h1 class="display-5 fw-bold text-body-emphasis mb-4">
           &#10024; The Visual Approach and Avoidance by the Self Task &#10024;
         </h1>
         <br>
@@ -37,24 +37,159 @@
             <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">Read about the experiment here</a>, or scroll down.
           </p>
         </div>
-        <div class="overflow-hidden pt-4" style="max-height: 45vh">
-          <div class="container px-5">
-            <img
-              src="remove-later/bootstrap-themes.png"
-              class="img-fluid border rounded-3 shadow-lg mb-4"
-              alt="Example image"
-              width="875"
-              height="625"
-              loading="lazy" />
+        <div class="pt-4 mb-5"> <!--  style="max-height: 45vh" -->
+          <div class="container px-5 border-bottom">
+            <!-- carousel!!  -->
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="media/inside-the-vaast/welcome.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Welcome page" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img src="media/inside-the-vaast/consent.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Consent page" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img src="media/inside-the-vaast/fullscreen.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Fullscreen page" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/start.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Starting page" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/preview-background.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Preview of the background" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/keys.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Preview of the useful keys" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/first-instructions.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Instructions with answer keys" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/attention-check.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Attention check" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/instructions-first-section.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Instructions for the first section" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/fast-correct.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Instructions to be fast and correct" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/wrong-training-0.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Error while training" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/wrong-training-1.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Error while training" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/end-training-ses.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - End of training section" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/o.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/fixation.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - fixation trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/avoidance-0.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Avoidance trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/avoidance-1.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Avoidance trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/approach-0.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Approach trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/approach-1.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Approach trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/instructions-second-section.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Instructions for the second section" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/approach-2.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Approach trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/approach-3.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Approach trial" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/questions.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Demographic questions" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/age.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Age question" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/sex.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Sex question" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/english.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - English fluency question" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/education.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Education question" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/ses.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Socio-economic status question" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/remarks.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Any remarks" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/saving-data.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Saving data page" loading="lazy" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="media/inside-the-vaast/conclusion.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the vaast - Conclusion" loading="lazy" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- <div class="d-flex align-items-center justify-content-between pt-4"> -->
-        <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 pt-5" id="2-versions">
-          The two versions of the experiment
-        </h1>
-        <!-- <a href="set-up.php#two-folders">Visit the set-up page</a> -->
+      <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 pt-5" id="2-versions">
+        The two versions of the experiment
+      </h1>
+      <!-- <a href="set-up.php#two-folders">Visit the set-up page</a> -->
       <!-- </div> -->
       <p class="lead">
         The experiment instructions ask the participant to approach or avoid a stimulus appearing on the screen, by using one key or another on their keyboard.
@@ -68,7 +203,7 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src=""
+              src="media/gifs/explicit-vaast.gif"
               class="d-block mx-lg-auto img-fluid border rounded-3 p-4"
               alt="gif of explicit vaast"
               width="700"
@@ -82,7 +217,7 @@
               <br>
               For example, we could ask the participant to approach positive words and avoid negative words.
               We'd also have them do the opposite, to measure the difference between the two conditions.
-              We expect the participant to be faster at approaching positive words than negative ones and faster at avoiding negative words than positive ones. 
+              We expect the participant to be faster at approaching positive words than negative ones and faster at avoiding negative words than positive ones.
             </p>
           </div>
         </div>
@@ -102,7 +237,7 @@
           </div>
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src=""
+              src="media/gifs/incidental-vaast.gif"
               class="d-block mx-lg-auto img-fluid border rounded-3 p-4"
               alt="gif of incidental vaast"
               width="700"
@@ -155,7 +290,7 @@
 
       <p class="lead pt-5">
         A few years later, an experiment was created that would offer some insight on whether one component being ecological matters more than the other being ecological.
-        The question was : For the approach/avoidance compatibility effect in the VAAST, does it matter more that the environment is ecological or that the visual flow is ?
+        The question was: For the approach/avoidance compatibility effect in the VAAST, does it matter more that the environment is ecological or that the visual flow is ?
       </p>
 
       <div class="container-sm px-4 py-2"> <!-- col-xxl-8 -->

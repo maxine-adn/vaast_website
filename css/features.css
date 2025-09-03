@@ -8,6 +8,19 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+/* Tables
+---------------- */
+
+.table-box {
+  padding: var(--bd-example-padding);
+}
+
+.table-around {
+  border-radius: var(--bs-border-radius);
+  border: solid var(--bs-border-color);
+  border-width: 1px;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -29,6 +42,10 @@ body {
 @media (min-width: 40em) {
   .featurette-heading {
     font-size: 40px;
+  }
+
+  .table-box {
+    --bd-example-padding: 1.5rem;
   }
 }
 
@@ -95,7 +112,7 @@ button:disabled {
   cursor: pointer;
   bottom: 7px;
   padding: 5px 12px;
-} 
+}
 
 /* Show or hide button */
 
@@ -108,7 +125,4 @@ button:disabled {
   border: none;
   outline: none;
   cursor: pointer;
-} 
-
-
-
+}

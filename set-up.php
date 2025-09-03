@@ -181,38 +181,38 @@
           <ul class="list-group list-group">
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-              <label class="form-check-label" for="firstCheckbox">Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</label>
+              <label class="form-check-label" for="firstCheckbox" style="overflow-wrap: break-word;">Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-              <label class="form-check-label" for="secondCheckbox">Create an authorization token on OSF (write_only authorization) and make sure to <strong>save this token</strong>. <br> You only need to do this <strong>once</strong>, <strong>not for every experiment</strong>.</label>
+              <label class="form-check-label" for="secondCheckbox" style="overflow-wrap: break-word;">Create an authorization token on OSF (write_only authorization) and make sure to <strong>save this token</strong>. <br> You only need to do this <strong>once</strong>, <strong>not for every experiment</strong>.</label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-              <label class="form-check-label" for="thirdCheckbox">Create the study in DataPipe. Use the OSF URL code previously copied. <br> For the component to create in OSF, enter 'data'. <br>This automatically creates a component on the OSF page.
+              <label class="form-check-label" for="thirdCheckbox" style="overflow-wrap: break-word;">Create the study in DataPipe. Use the OSF URL code previously copied. <br> For the component to create in OSF, enter 'data'. <br>This automatically creates a component on the OSF page.
                 <!-- <img class="img-fluid" src="media/datapipe-settings.png" style="max-width: 100%; height: auto;"> -->
               </label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="fourthCheckbox">
-              <label class="form-check-label" for="fourthCheckbox">Paste the different elements given by DataPipe in your Javascript code and in the index file:
+              <label class="form-check-label" for="fourthCheckbox" style="overflow-wrap: break-word;">Paste the different elements given by DataPipe in your Javascript code and in the index file:
               </label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
-              <label class="form-check-label" for="fifthCheckbox">
+              <label class="form-check-label" for="fifthCheckbox" style="overflow-wrap: break-word;">
                 Uncomment this line in the <code>index.html</code> file:
                 <br>
-                <pre><code>&lt;script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"&gt;&lt;/script&gt;</code></pre>
+                <pre style="max-width: 100%; white-space: pre-wrap; word-break: break-all;"><code>&lt;script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"&gt;&lt;/script&gt;</code></pre>
               </label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="sixthCheckbox">
-              <label class="form-check-label" for="sixthCheckbox">Add these lines to the <code>experiment.js</code> file:
+              <label class="form-check-label" for="sixthCheckbox" style="overflow-wrap: break-word;">Add these lines to the <code>experiment.js</code> file:
                 <br>
-                <pre><code>const subject_id = jsPsych.randomization.randomID(10);</code></pre>
-                <pre><code>const filename = `${subject_id}.csv`;</code></pre>
-                <pre><code>const save_data = {
+                <pre style="max-width: 100%; white-space: pre-wrap; word-break: break-all;"><code>const subject_id = jsPsych.randomization.randomID(10);</code></pre>
+                <pre style="max-width: 100%; white-space: pre-wrap; word-break: break-all;"><code>const filename = `${subject_id}.csv`;</code></pre>
+                <pre style="max-width: 100%; white-space: pre-wrap; word-break: break-all;"><code>const save_data = {
   type: jsPsychPipe,
   action: "save",
   experiment_id: "your-experiment-id",
@@ -224,11 +224,11 @@
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="seventhCheckbox">
-              <label class="form-check-label" for="seventhCheckbox">Try your experiment with the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> to test if the data is saved on OSF.</label>
+              <label class="form-check-label" for="seventhCheckbox" style="overflow-wrap: break-word;">Try your experiment with the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> to test if the data is saved on OSF.</label>
             </li>
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="eighthCheckbox">
-              <label class="form-check-label" for="eighthCheckbox">Use the GitHub Pages URL to share your experiment (on whichever platform you use).</label>
+              <label class="form-check-label" for="eighthCheckbox" style="overflow-wrap: break-word;">Use the GitHub Pages URL to share your experiment (on whichever platform you use).</label>
             </li>
           </ul>
           <br>

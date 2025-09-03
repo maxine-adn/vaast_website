@@ -24,8 +24,9 @@ showButton.addEventListener("click", () => {
     const icon = document.querySelector(".show-hide-icon");
     icon.name = "eye-outline";
     label.textContent = originalText;
-    showButton.style.background = "#212529";
+    showButton.style.background = "#282c34";
     showButton.style.color = "#ffffff";
 
+    
   }
 });

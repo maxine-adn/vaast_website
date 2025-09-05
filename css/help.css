@@ -1,0 +1,27 @@
+button {
+  position: absolute;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.help-button {
+  right: 25px;
+  background-color: grey;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.help-button:active {
+  background-color: grey;
+}
+
+#copy-mail {
+  /* border-radius: 15px; */
+  right: 25px;
+  background-color: grey;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

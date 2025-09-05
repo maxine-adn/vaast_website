@@ -3,8 +3,7 @@ document.querySelectorAll(".showOrHideHelp").forEach((helpButton) => {
 
   helpButton.addEventListener("click", () => {
     let whichQuestion = helpButton.id;
-    let classname = "qu-"+whichQuestion;
-    let questionP = document.getElementById(classname);
+    let questionP = document.getElementById("qu-" + whichQuestion);
 
     if (helpIsClicked) {
       questionP.style.display = "block";
@@ -13,7 +12,6 @@ document.querySelectorAll(".showOrHideHelp").forEach((helpButton) => {
       // Change l'icon
       let help_icon = document.getElementById("icon-" + whichQuestion);
       help_icon.name = "chevron-down-outline";
-
     } else {
       questionP.style.display = "none";
       helpIsClicked = true;

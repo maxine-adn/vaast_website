@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="" />
   <title>Set up your VAAST</title>
-  <script src="../assets/js/color-modes.js"></script>
+  <script src="assets/js/color-modes.js"></script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <meta name="theme-color" content="#712cf9" />
   <link
@@ -28,7 +29,6 @@
 </head>
 
 <body>
-  <?php include 'color-modes.php'; ?>
   <?php include 'header.php'; ?>
   <main class="container-sm">
     <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
@@ -37,10 +37,7 @@
           Let's set up your VAAST experiment!
         </h1>
         <p class="lead my-3">
-          Something important enough to write here, that I don't repeat later on...
-        </p>
-        <p class="lead mb-0">
-          <a href="#what-you-need" class="text-body-emphasis fw-bold">Continue reading...</a>
+          Click here to download the <a href="future_vaast_file.zip" class="text-body-emphasis ">experiment zip file</a>
         </p>
       </div>
     </div>
@@ -129,7 +126,7 @@
             Now, you'll go to the left-hand side of your VSCode to the Source Control logo (<ion-icon name="git-branch-outline"></ion-icon>). There, you will set up your distant GitHub repository.
             You'll be asked to connect to your GitHub account.
             You should then choose a public repository.
-            Visit this VSCode <a  target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/docs/sourcecontrol/overview#_initialize-a-repository">page</a> if you have any trouble at this time.
+            Visit this VSCode <a target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/docs/sourcecontrol/overview#_initialize-a-repository">page</a> if you have any trouble at this time.
           </p>
 
           <h3 id="changes">Make all the necessary changes</h3>
@@ -243,37 +240,13 @@
           <p>Please note, it might take <strong>up to 10 minutes</strong> for any changes you make to the files to be visible.</p>
 
         </article>
-
-        <!-- <article class="blog-post" id="second-step">
-          <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
-          <p class="blog-post-meta">
-            December 14, 2020 by <a href="#">Chris</a>
-          </p>
-          <p>
-            This is some additional paragraph placeholder content. It has been
-            written to fill the available space and show how a longer snippet
-            of text affects the surrounding content. We'll repeat it often to
-            keep the demonstration flowing, so be on the lookout for this
-            exact same string of text.
-          </p>
-          <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ul>
-          <p>
-            This is some additional paragraph placeholder content. It's a
-            slightly shorter version of the other highly repetitive body text
-            used throughout.
-          </p>
-        </article> -->
       </div>
       <div class="col-md-4">
         <div class="position-sticky" style="top: 2rem">
           <div class="p-4 mb-5 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
             <p class="mb-0">
-              Read about the experiment in <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">this article</a>, 
+              Read about the experiment in <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">this article</a>,
               or go back to the <a href="index.php">home page</a> to find out more about the different versions or the background images.
             </p>
           </div>
@@ -282,7 +255,7 @@
             <ul class="list-unstyled">
               <li>
                 <a
-                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" target="_blank" rel="noopener noreferrer"
                   href="explicit-vaast.php">
                   <img src="/media/vaast-background_eco_vf.jpg" height="100">
                   <div class="col-lg-8">
@@ -293,7 +266,7 @@
               </li>
               <li>
                 <a
-                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" target="_blank" rel="noopener noreferrer" 
                   href="incidental-vaast.php">
                   <img src="/media/vaast-background_all_eco.jpg" height="100">
                   <div class="col-lg-8">

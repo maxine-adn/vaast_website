@@ -18,7 +18,7 @@
         <a href="/set-up.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Set-up</a>
       </li>
       <li class="nav-item">
-        <a href="/contact.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Contact</a>
+        <a href="/help.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Help</a>
       </li>
     </ul>
   </footer>

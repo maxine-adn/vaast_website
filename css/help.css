@@ -1,3 +1,5 @@
+/* Buttons */
+
 button {
   position: absolute;
   border: none;
@@ -19,9 +21,22 @@ button {
 
 #copy-mail {
   /* border-radius: 15px; */
-  right: 25px;
-  background-color: grey;
+  bottom: 8px;
+  right: 8px;
+  background-color: rebeccapurple;
   color: #ffffff;
   border-radius: 5px;
   padding: 5px 10px;
+}
+
+p {
+  color: white;
+}
+
+.answer {
+  display: none;
+  background-color: grey;
+  width: 90%;
+  float: right;
+  border-radius: 0 0 .5rem 0;
 }

@@ -14,7 +14,7 @@
       <a class="nav-item nav-link link-body-emphasis" href="/features.php">Features</a>
       <a class="nav-item nav-link link-body-emphasis" href="/trials.php">Try it out!</a>
       <a class="nav-item nav-link link-body-emphasis" href="/set-up.php">Set-up</a>
-      <a class="nav-item nav-link link-body-emphasis" href="/contact.php">Contact</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/help.php">Help</a>
     </nav>
   </div>
 </div> -->
@@ -31,7 +31,7 @@
       <a class="nav-item nav-link link-body-emphasis" href="/features.php">Features</a>
       <a class="nav-item nav-link link-body-emphasis" href="/trials.php">Try it out!</a>
       <a class="nav-item nav-link link-body-emphasis" href="/set-up.php">Set-up</a>
-      <a class="nav-item nav-link link-body-emphasis" href="/contact.php">Contact</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/help.php">Help</a>
     </nav>
   </header>
 </div>

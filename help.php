@@ -21,6 +21,12 @@
     <!-- button icons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </head>
 
 <body>
@@ -34,74 +40,80 @@
 
             <div class="mx-auto rounded-3" style="background-color: gray; width:85%; margin-bottom: 2.5rem" ;>
 
-                <div>
+                <div id="div-1" clas="showOrHideHelp" style="background-color: grey;">
                     <div class="d-flex align-items-center justify-content-between p-4 position-relative">
-                        <p class="fw-bold">question 1</p>
+                        <p class="fw-bold p-0 m-0">The feature I added to the experiment code isn't shown in the experiment, why?</p>
 
                         <button id="1" type="button" class="showOrHideHelp text-center help-button my-auto">
                             <ion-icon name="chevron-forward-outline" id="icon-1" class="show-hide-help-icon"></ion-icon>
                         </button>
                     </div>
 
-                    <div id="qu-1" style="display: none; background-color:darkseagreen; width: 80%">
-                        <p>answer to question 1</p>
+                    <div id="qu-1" class="answer">
+                        <p style="left: 15px">Have you made sure you pushed the feature to the timeline? It should look something like :
+                        <pre style="width: 16.5rem; border-radius:10px"><code>timeline.push(feature_name);</code></pre>
+                        </p>
                     </div>
                 </div>
                 <hr style="width: 90%" class="mx-auto" />
 
-                <div>
+                <div style="background-color: cyan;">
                     <div class="d-flex align-items-center justify-content-between p-4 position-relative">
-                        <p class="fw-bold">question 2</p>
+                        <p class="fw-bold p-0 m-0">question 2</p>
 
                         <button id="2" type="button" class="showOrHideHelp text-center help-button my-auto">
                             <ion-icon name="chevron-forward-outline" id="icon-2" class="show-hide-help-icon"></ion-icon>
                         </button>
                     </div>
 
-                    <div id="qu-2" style="display: none; background-color:darkseagreen; width: 80%">
-                        <p>answer to question 2</p>
+                    <div id="qu-2" class="answer">
+                        <p style="left: 15px">answer to question 2</p>
                     </div>
                 </div>
                 <hr style="width: 90%" class="mx-auto" />
 
-                <div>
+                <div style="background-color: salmon;">
                     <div class="d-flex align-items-center justify-content-between p-4 position-relative">
-                        <p class="fw-bold">question 3</p>
+                        <p class="fw-bold p-0 m-0">question 3</p>
 
                         <button id="3" type="button" class="showOrHideHelp text-center help-button my-auto">
                             <ion-icon name="chevron-forward-outline" id="icon-3" class="show-hide-help-icon"></ion-icon>
                         </button>
                     </div>
-                    <div id="qu-3" style="display: none; background-color:darkseagreen; width: 80%">
-                        <p>answer to question 3</p>
+                    <div class="position-relative">
+                        <div id="qu-3" class="answer">
+                            <p style="left: 15px">answer to question 3</p>
+                        </div>
                     </div>
                 </div>
                 <hr style="width: 90%" class="mx-auto" />
 
-                <div>
+                <div style="background-color: cyan;">
                     <div class="d-flex align-items-center justify-content-between p-4 position-relative">
-                        <p class="fw-bold">question 4</p>
+                        <p class="fw-bold p-0 m-0">question 4</p>
 
                         <button id="4" type="button" class="showOrHideHelp text-center help-button my-auto">
                             <ion-icon name="chevron-forward-outline" id="icon-4" class="show-hide-help-icon"></ion-icon>
                         </button>
                     </div>
 
-                    <div id="qu-4" style="display: none; background-color:darkseagreen; width: 80%">
-                        <p">answer to question 4</p>
+                    <div class="position-relative">
+
+                        <p id="qu-4" class="answer pb-3 m-0">answer to question 4</p>
+
                     </div>
                 </div>
                 <hr style="width: 90%" class="mx-auto" />
             </div>
 
             <h1 classs="display-6 fw-bold text-emphasis mb-1" style="text-align:center">You have another question:</h1>
-            <p class="mx-auto mb-5" style="text-align:center; width:80%">
+            <p class="mx-auto mb-3" style="text-align:center; width:80%">
                 If it relates to jsPsych, to the use of plugins or timelines..., please visit <a target="_blank" rel="noopener noreferrer" href="https://www.jspsych.org/latest/">jsPsych</a>, their <a target="_blank" rel="noopener noreferrer" href="https://github.com/jspsych/jsPsych/discussions">GitHub discussion board</a>, or ask your question there.
                 <br>
                 If it relates to the VAAST, please read this article to see if it answers your questions, or email us at:
             </p>
-            <div class="position-relative" style="background-color: grey; height: 50px">
-                <p class="push-tl email-adress ">email-adress!</p>
+            <div class="position-relative" style="background-color: grey; height: 50px; border-radius: 5px;">
+                <p class="push-tl email-adress position-absolute top-50 translate-middle-y" style="left: 15px">email-adress!</p>
                 <button id="copy-mail" type="button" class="copy-ft" data-copy=".email-adress">
                     <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                     <span class="copy-label">Copy</span>
@@ -117,6 +129,7 @@
         crossorigin="anonymous"
         class="astro-vvvwv3sm"></script>
     <script src="js/active-hd.js"></script>
+    <script src="js/copy-button.js"></script>
     <script src="js/show-hide-help-button.js"></script>
 </body>
 

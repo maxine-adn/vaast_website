@@ -289,9 +289,10 @@
             </ol>
           </div>
           <div class="p-4">
-            <h4 class="fst-italic">Elsewhere</h4>
+            <h4 class="fst-italic">Example</h4>
             <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/maxine-adn/test-vaast">GitHub</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://maxine-adn.github.io/test-vaast/">Experiment</a></li>
             </ol>
           </div>
         </div>

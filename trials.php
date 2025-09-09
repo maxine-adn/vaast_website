@@ -21,44 +21,56 @@
 <body>
   <?php include 'header.php'; ?>
   <main>
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div
-        class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-body-tertiary shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0">
-          <!-- une image de l'env eco avec fv non eco -->
-        </div>
-      </div>
-      <div
-        class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div>
-          <img src="/media/vaast-background_eco_vf.jpg" class="mx-auto shadow-sm" style="width: fit-content; border-radius: 12px">
-        </div>
+    <div class="p-md-5 mt-5 text-body-emphasis bg-body-secondary container" style="padding: 1.5rem 1.5rem 0 1.5rem; border-radius: 21px">
+      <div class="col-lg-12 px-0 text-center">
+        <h2 class="fst-italic">
+          Choose which version of the VAAST you want to try :
+        </h2>
       </div>
     </div>
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div
-        class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+    <div class="d-md-flex flex-md-equal w-100 mb-md-5 ps-md-3">
+      <a
+        target="_blank" rel="noopener noreferrer"
+        class="text-bg-dark me-md-3 px-3 pt-md-3 px-md-5 text-center text-decoration-none"
+        href="explicit-vaast.php">
+
+        <div class="mb-2 mt-4 pb-2 pt-4">
+          <h2 class="display-6">Explicit VAAST</h2>
         </div>
-        <div
-          class="bg-dark shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0">
-          <!-- une image de l'env eco avec fv eco -->
+
+        <div class="mx-auto">
+          <img
+            src="media/vaast-background_eco_vf_gq.jpg"
+            style="width: 75%"
+            class="mx-auto img-fluid border rounded-3 p-4"
+            alt="background image with ecological environment and visual flow"
+            loading="lazy" />
         </div>
-      </div>
+      </a>
+      <a
+        target="_blank" rel="noopener noreferrer" 
+        class="text-bg-dark me-md-3 px-3 pt-md-3 px-md-5 text-center text-decoration-none"
+        href="incidental-vaast.php">
+
+        <div class="mb-2 mt-4 pb-2 pt-4">
+          <h2 class="display-6">Incidental VAAST</h2>
+        </div>
+
+        <div class="mx-auto">
+          <img
+            src="media/vaast-background_all_eco.jpg"
+            style="width: 75%"
+            class="mx-auto img-fluid border rounded-3 p-4"
+            alt="background image with ecological environment and visual flow"
+            loading="lazy" />
+        </div>
+      </a>
+
+
+
+      </a>
     </div>
+
   </main>
   <?php include 'footer.php'; ?>
   <script

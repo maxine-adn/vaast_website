@@ -5,27 +5,27 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: #2b3034;
 }
 
 .help-button {
   right: 25px;
-  background-color: grey;
   color: #ffffff;
   border-radius: 5px;
   padding: 5px 10px;
 }
 
 .help-button:active {
-  background-color: grey;
+  background-color: #2b3034;
 }
 
 #copy-mail {
   /* border-radius: 15px; */
   bottom: 8px;
   right: 8px;
-  background-color: rebeccapurple;
+  background-color:  #212529;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 7.5px;
   padding: 5px 10px;
 }
 
@@ -35,7 +35,7 @@ p {
 
 .answer {
   display: none;
-  background-color: grey;
+  background-color: #2b3034;
   width: 90%;
   float: right;
   border-radius: 0 0 .5rem 0;

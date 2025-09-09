@@ -24,7 +24,7 @@
 
       <div class="px-0 pt-4 my-5 text-center border-bottom">
         <h2 class="mb-3">A highly replicable implicit measure of attitudes:</h2>
-        <h1 class="display-5 fw-bold text-body-emphasis mb-4">
+        <h1 class="display-5 fw-bold text-body-emphasis mb-4" style="white-space: nowrap">
           &#10024; The Visual Approach and Avoidance by the Self Task &#10024;
         </h1>
         <br>
@@ -185,12 +185,10 @@
         </div>
       </div>
 
-      <!-- <div class="d-flex align-items-center justify-content-between pt-4"> -->
+
       <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 pt-5" id="2-versions">
         The two versions of the experiment
       </h1>
-      <!-- <a href="set-up.php#two-folders">Visit the set-up page</a> -->
-      <!-- </div> -->
       <p class="lead">
         The experiment instructions ask the participant to approach or avoid a stimulus appearing on the screen, by using one key or another on their keyboard.
         The movement they have to produce depends on a caracteristic the researcher chooses.

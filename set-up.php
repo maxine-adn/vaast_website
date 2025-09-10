@@ -41,10 +41,9 @@
         </p>
       </div>
     </div>
-    <div class="row mb-3">
+    <div class="row mb-3 align-items-stretch">
       <div class="col-md-6">
-        <div
-          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="border rounded overflow-hidden shadow-sm h-100 position-relative d-flex flex-column">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Try a mock version of the VAAST</h3>
             <p class="card-text mb-auto" style="padding-top: 0.75rem">
@@ -59,12 +58,10 @@
               </svg>
             </a>
           </div>
-
         </div>
       </div>
       <div class="col-md-6">
-        <div
-          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="border rounded overflow-hidden shadow-sm h-100 position-relative d-flex flex-column">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Optional Features</h3>
             <p class="mb-auto" style="padding-top: 0.75rem">
@@ -215,7 +212,7 @@
   experiment_id: "your-experiment-id",
   filename: filename,
   data_string: ()=>jsPsych.data.get().csv()
- };</code></pre>
+};</code></pre>
                 Don't forget to replace <code>"your-experiment-id"</code> by the real code between quotation marks
               </label>
             </li>
@@ -266,7 +263,7 @@
               </li>
               <li>
                 <a
-                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" target="_blank" rel="noopener noreferrer" 
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" target="_blank" rel="noopener noreferrer"
                   href="incidental-vaast.php">
                   <img src="/media/vaast-background_all_eco.jpg" height="100">
                   <div class="col-lg-8">

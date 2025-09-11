@@ -9,13 +9,13 @@
         <a href="/index.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Home</a>
       </li>
       <li class="nav-item">
-        <a href="/features.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Features</a>
+        <a href="/set-up.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Set-up</a>
       </li>
       <li class="nav-item">
         <a href="/trials.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Try it out!</a>
       </li>
       <li class="nav-item">
-        <a href="/set-up.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Set-up</a>
+        <a href="/features.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Features</a>
       </li>
       <li class="nav-item">
         <a href="/help.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Help</a>

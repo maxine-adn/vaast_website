@@ -74,11 +74,11 @@
     }
   }
 };</code></pre>
-              <button type="button" class="copy copy-ft top-buttons" data-copy=".browser-check">
+              <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".browser-check">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-              <a target="_blank" rel="noopener noreferrer" href="features/bw-check.html" class="open-demo top-buttons">
+              <a target="_blank" rel="noopener noreferrer" href="features/bw-check.html" class="open-demo top-buttons bg-body-secondary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -88,7 +88,7 @@
             </div>
             <div class="position-relative">
               <pre class="push-tl push-bc"><code>timeline.push(browser_check)</code></pre>
-              <button type="button" class="copy-tl copy-ft" data-copy=".push-bc">
+              <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-bc">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
@@ -141,11 +141,11 @@ const if_not_enough_time = {
     }
   }
 };</code></pre>
-              <button type="button" class="copy copy-ft top-buttons" data-copy=".time">
+              <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".time">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-              <a target="_blank" rel="noopener noreferrer" href="features/enough-time.html" class="open-demo top-buttons">
+              <a target="_blank" rel="noopener noreferrer" href="features/enough-time.html" class="open-demo top-buttons bg-body-secondary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -155,7 +155,7 @@ const if_not_enough_time = {
             </div>
             <div class="position-relative">
               <pre class="push-tl push-time"><code>timeline.push(enough_time, if_not_enough_time)</code></pre>
-              <button type="button" class="copy-tl copy-ft" data-copy=".push-time">
+              <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-time">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
@@ -190,11 +190,11 @@ const if_not_enough_time = {
   }],
   button_label: "Submit",
 };</code></pre>
-              <button type="button" class="copy copy-ft top-buttons" data-copy=".attention-check">
+              <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".attention-check">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-              <a target="_blank" rel="noopener noreferrer" href="features/att-check.html" class="open-demo top-buttons">
+              <a target="_blank" rel="noopener noreferrer" href="features/att-check.html" class="open-demo top-buttons bg-body-secondary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -203,7 +203,7 @@ const if_not_enough_time = {
             </div>
             <div class="position-relative">
               <pre class="push-tl push-ac"><code>timeline.push(attention_check)</code></pre>
-              <button type="button" class="copy-tl copy-ft" data-copy=".push-ac">
+              <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-ac">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
@@ -232,11 +232,11 @@ const if_not_enough_time = {
     "&lt;p class='continue-instructions'&gt;Press &lt;strong&gt;space&lt;/strong&gt; to continue.&lt;/p&gt;",
   choices: [" "]
 };</code></pre>
-              <button type="button" class="copy copy-ft top-buttons" data-copy=".demo-qu">
+              <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".demo-qu">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
-              <a target="_blank" rel="noopener noreferrer" href="features/demo-qu.html" class="open-demo top-buttons">
+              <a target="_blank" rel="noopener noreferrer" href="features/demo-qu.html" class="open-demo top-buttons bg-body-secondary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -246,7 +246,7 @@ const if_not_enough_time = {
             </div>
             <div class="position-relative">
               <pre class="push-tl push-dq"><code>timeline.push(vaast_demographic_questions)</code></pre>
-              <button type="button" class="copy-tl copy-ft" data-copy=".push-dq">
+              <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-dq">
                 <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                 <span class="copy-label">Copy</span>
               </button>
@@ -288,11 +288,11 @@ const if_not_enough_time = {
     return false;
   }
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".qu-age">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".qu-age">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/qu-age.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/qu-age.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -302,7 +302,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-age"><code>timeline.push(extra_information_age)</code></pre>
-                <button type="button" class="copy-tl copy-ft"" data-copy=" .push-age">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=" .push-age">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -328,11 +328,11 @@ const if_not_enough_time = {
                name: "sex"}],
   button_label: "Confirm"
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".qu-sex">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".qu-sex">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/qu-sex.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/qu-sex.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -342,7 +342,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-sex"><code>timeline.push(extra_information_sex)</code></pre>
-                <button type="button" class="copy-tl copy-ft" data-copy=".push-sex">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-sex">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -360,7 +360,7 @@ const if_not_enough_time = {
             </div>
             <div class="p-2">
               <div class="position-relative">
-                <pre class="feature-code qu-eng"><code data-language="javascript">const extra_information_fluency = {
+                <pre class="feature-code qu-eng" data-bs-theme="dark"><code data-language="javascript">const extra_information_fluency = {
   type: jsPsychSurveyMultiChoice,
   questions: [{prompt: "How well do you speak English?",
                options: ["&nbspFluently", "&nbspVery well", "&nbspWell", "&nbspAverage", "&nbspBadly", "&nbspVery badly"],
@@ -368,11 +368,11 @@ const if_not_enough_time = {
                name: "fluency"}],
   button_label: "Confirm"
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".qu-eng">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".qu-eng">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/qu-eng.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/qu-eng.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -382,7 +382,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-eng"><code>timeline.push(extra_information_fluency)</code></pre>
-                <button type="button" class="copy-tl copy-ft" data-copy=".push-eng">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-eng">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -408,11 +408,11 @@ const if_not_enough_time = {
                name: "socioeconomic status"}],
   button_label: "Submit"
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".qu-ses">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".qu-ses">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/qu-ses.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/qu-ses.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -422,7 +422,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-ses"><code>timeline.push(extra_information_ses)</code></pre>
-                <button type="button" class="copy-tl copy-ft" data-copy=".push-ses">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-ses">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -448,11 +448,11 @@ const if_not_enough_time = {
                name: "education"}],
   button_label: "Submit"
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".qu-ed">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".qu-ed">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/qu-ed.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/qu-ed.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -462,7 +462,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-ed"><code>timeline.push(extra_information_edu)</code></pre>
-                <button type="button" class="copy-tl copy-ft" data-copy=".push-ed">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-ed">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -486,11 +486,11 @@ const if_not_enough_time = {
                name: "remarks"}],
   button_label: "Submit"
 };</code></pre>
-                <button type="button" class="copy copy-ft top-buttons" data-copy=".remarks">
+                <button type="button" class="copy copy-ft top-buttons bg-body-secondary" data-copy=".remarks">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
-                <a target="_blank" rel="noopener noreferrer" href="features/remarks.html" class="open-demo top-buttons">
+                <a target="_blank" rel="noopener noreferrer" href="features/remarks.html" class="open-demo top-buttons bg-body-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -500,7 +500,7 @@ const if_not_enough_time = {
               </div>
               <div class="position-relative">
                 <pre class="push-tl push-rem"><code>timeline.push(extra_information_remarks)</code></pre>
-                <button type="button" class="copy-tl copy-ft" data-copy=".push-rem">
+                <button type="button" class="copy-tl copy-ft bg-body-secondary" data-copy=".push-rem">
                   <ion-icon name="copy-outline" class="copy-icon"></ion-icon>
                   <span class="copy-label">Copy</span>
                 </button>
@@ -510,7 +510,7 @@ const if_not_enough_time = {
         </div>
 
         <div class="d-flex justify-content-center my-5">
-          <button type="button" class="showOrHide text-center mb-5">
+          <button type="button" class="showOrHide text-center mb-5 bg-body-secondary">
             <ion-icon name="eye-outline" class="eye-icon show-hide-icon"></ion-icon>
             <span class="btn-label">View question examples</span>
           </button>
@@ -729,8 +729,9 @@ const if_not_enough_time = {
   <script src="js/show-hide-button.js"></script>
   <!-- code highlighter: -->
 
-  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
   <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
+  <link data-bs-theme="dark" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
+  <link data-bs-theme="light" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-light.min.css">
   <script>
     hljs.highlightAll();
   </script>

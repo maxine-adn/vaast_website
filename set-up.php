@@ -19,13 +19,6 @@
   <!-- icons -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <!-- code highlighter: -->
-  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
-  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
-  <script>
-    hljs.highlightAll();
-  </script>
 </head>
 
 <body>
@@ -303,6 +296,14 @@
     crossorigin="anonymous"
     class="astro-vvvwv3sm"></script>
   <script src="js/active-hd.js"></script>
+
+  <!-- code highlighter: -->
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
+  <link data-bs-theme="dark" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
+  <link data-bs-theme="light" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-light.min.css">
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 
 </html>

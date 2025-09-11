@@ -5,12 +5,11 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #2b3034;
 }
 
 .help-button {
   right: 25px;
-  color: #ffffff;
+  color: var(--bs-body-color);
   border-radius: 5px;
   padding: 5px 10px;
 }
@@ -23,19 +22,12 @@ button {
   /* border-radius: 15px; */
   bottom: 8px;
   right: 8px;
-  background-color:  #212529;
-  color: #ffffff;
   border-radius: 7.5px;
   padding: 5px 10px;
 }
 
-p {
-  color: white;
-}
-
 .answer {
   display: none;
-  background-color: #2b3034;
   width: 90%;
   float: right;
   border-radius: 0 0 .5rem 0;

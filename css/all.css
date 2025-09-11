@@ -97,13 +97,15 @@
   display: block !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
 /* Link buttons */
 
 .top-buttons {
   position: absolute;
   right: 10px;
-  background-color: #212529;
-  color: #ffffff;
   border-radius: 12px;
   padding: 8px 12px;
   border: none;
@@ -114,6 +116,7 @@
 .open-demo {
   top: 10px;
   z-index: 10001;
+  color: rgb(var(--bs-tertiary-color-rgb));
 }
 
 /* Copy Buttons */
@@ -123,7 +126,5 @@ button:active {
 }
 
 button:disabled {
-  background: #f1f1f1;
-  color: #292c35;
   cursor: not-allowed;
 }

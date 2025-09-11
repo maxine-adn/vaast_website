@@ -9,7 +9,6 @@
   <script src="assets/js/color-modes.js"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <meta name="theme-color" content="#712cf9" />
   <link href="css/features.css" rel="stylesheet" />
   <link href="css/all.css" rel="stylesheet" />
   <link
@@ -22,7 +21,7 @@
 </head>
 
 <body>
-  
+  <?php include 'color-modes.php'; ?>
   <?php include 'header.php'; ?>
 
   <main class="container-sm">

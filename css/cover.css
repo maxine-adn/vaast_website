@@ -4,7 +4,7 @@
 /* Carousel base class */
 .carousel {
   margin-bottom: 0;
-  background-color: #212529;
+  background-color:rgb(var(--bs-body-bg));
 }
 
 /* Declare heights because of positioning of img element */

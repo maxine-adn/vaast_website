@@ -28,10 +28,10 @@
         </h2>
       </div>
     </div>
-    <div class="d-md-flex flex-md-equal w-100 mb-md-5 ps-md-3">
+    <div class="d-md-flex flex-md-equal w-100 mb-md-5 ps-md-3 container-sm">
       <a
         target="_blank" rel="noopener noreferrer"
-        class="text-bg-dark me-md-3 px-3 pt-md-3 px-md-5 text-center text-decoration-none"
+        class="text-bg-dark me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
         href="explicit-vaast.php">
 
         <div class="mb-2 mt-4 pb-2 pt-4">
@@ -41,15 +41,15 @@
         <div class="mx-auto">
           <img
             src="media/vaast-background_eco_vf_gq.jpg"
-            style="width: 75%"
+            style="width: 85%"
             class="mx-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"
             loading="lazy" />
         </div>
       </a>
       <a
-        target="_blank" rel="noopener noreferrer" 
-        class="text-bg-dark me-md-3 px-3 pt-md-3 px-md-5 text-center text-decoration-none"
+        target="_blank" rel="noopener noreferrer"
+        class="text-bg-dark me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
         href="incidental-vaast.php">
 
         <div class="mb-2 mt-4 pb-2 pt-4">
@@ -59,15 +59,11 @@
         <div class="mx-auto">
           <img
             src="media/vaast-background_all_eco.jpg"
-            style="width: 75%"
+            style="width: 85%"
             class="mx-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"
             loading="lazy" />
         </div>
-      </a>
-
-
-
       </a>
     </div>
 

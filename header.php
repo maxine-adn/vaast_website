@@ -9,6 +9,7 @@
     <nav class="nav nav-underline justify-content-between align-items-center">
       <a class="nav-item nav-link link-body-emphasis" href="/index.php">Home</a>
       <a class="nav-item nav-link link-body-emphasis" href="/set-up.php">Set-up</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/docs.php">Docs</a>
       <a class="nav-item nav-link link-body-emphasis" href="/trials.php">Try it out!</a>
       <a class="nav-item nav-link link-body-emphasis" href="/features.php">Features</a>
       <a class="nav-item nav-link link-body-emphasis" href="/help.php">Help</a>

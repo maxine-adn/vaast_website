@@ -12,6 +12,9 @@
         <a href="/set-up.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Set-up</a>
       </li>
       <li class="nav-item">
+        <a href="/docs.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Docs</a>
+      </li>
+      <li class="nav-item">
         <a href="/trials.php" class="nav-link px-2 text-body-secondary" style="white-space: nowrap;">Try it out!</a>
       </li>
       <li class="nav-item">

@@ -128,3 +128,8 @@ button:active {
 button:disabled {
   cursor: not-allowed;
 }
+
+/* Docs page */
+.nav-link[data-tab] {
+  cursor: pointer !important;
+}

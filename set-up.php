@@ -89,10 +89,10 @@
           <p>
             For this set up, we chose to use <a target="_blank" rel="noopener noreferrer" href="https://docs.github.com/en/pages">GitHub Pages</a>, <a target="_blank" rel="noopener noreferrer" href="https://osf.io/">OSF (Open Science Framework)</a> and <a target="_blank" rel="noopener noreferrer" href="https://pipe.jspsych.org/">DataPipe</a>.
             We'll use GitHub Pages to host the experiment online. For that we'll need a GitHub account.
-            We'll use OSF to store the resulting data, you'll need an account here as well.
+            We'll use OSF to store the resulting data, you'll need an account there as well.
             We'll use DataPipe to be the bridge between the two previous tools.
             <br>
-            If you use other tools, feel free to make the necessary adjustments.
+            If you use other means, feel free to make the necessary adjustments.
             Otherwise, log onto these websites or create an account on each using the <em>Sign Up</em> button:
           <ul>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/">GitHub</a></li>
@@ -110,20 +110,20 @@
           <br>
           <hr />
           <p>
-            You should see two folders, named <em>incidental</em> and <em>explicit</em>. Each file contains all the needed files for the specific experiment.
+            You should see two folders, named <em>incidental</em> and <em>explicit</em>. Each folder contains all the needed files for the specific experiment.
             Go to the <a href="index.php#2-versions">home page</a> to learn about the differences between the two versions.
             <br>
-            Now, you'll go to the left-hand side of your VSCode to the Source Control logo (<ion-icon name="git-branch-outline"></ion-icon>). There, you will set up your distant GitHub repository.
+            Now, go to the left-hand side of your VSCode, to the Source Control logo (<ion-icon name="git-branch-outline"></ion-icon>). There, you will set up your distant GitHub repository.
             You'll be asked to connect to your GitHub account.
-            You should then choose a public repository.
+            You should then choose a <strong>public</strong> repository.
             Visit this VSCode <a target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/docs/sourcecontrol/overview#_initialize-a-repository">page</a> if you have any trouble at this time.
           </p>
 
           <h3 id="changes">Make all the necessary changes</h3>
           <p>
-            Once you have linked your local version of the file to the distant one, you can start making the changes you want.
-            Know that to save these changes to the distant repository (online on GitHub), you'll need to do 'git add .' then 'git push' and add a message,
-            click the tick on the top-right-hand side corner to validate.
+            Once you have linked your local version of the folder to the distant one, you can start making the changes you want.
+            Know that to save these changes to the distant repository (online on GitHub), you'll need to do <code>git add .</code> then <code>git push</code> and add a message,
+            click the tick in the upper right corner to validate.
             This will update your distant repository with the local changes.
           </p>
           <p>
@@ -131,9 +131,9 @@
             Here's a (non-exhaustive) list of things you might want to change, according to the specific experiment you want to run:
           </p>
           <ul>
-            <li>The stimuli (words)</li>
+            <li>The stimuli (words or images)</li>
             <li>The background images (see <a href="index.php#background-images">this paragraph</a> in the home page, for more information on the different backgrounds available)</li>
-            <li>The amount of training and testing trials (how many times the participants see a stimulus that they have to approach/avoid)</li>
+            <li>The amount of training and testing trials (i.e., how many times the participants see a stimulus that they have to approach/avoid)</li>
             <li>The instructions</li>
             <li>The end:
               <ul>
@@ -141,11 +141,11 @@
                 <li>The end page</li>
               </ul>
             </li>
-            <li>???</li>
+            <li>Etc.</li>
           </ul>
 
           <hr />
-          <p>At any time, if you want to try the experiment you can use the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> VSCode extension that you can download directly from the application.
+          <p>If you want to try the experiment at any time, you can use the <a target="_blank" rel="noopener noreferrer" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> VSCode extension that you can download directly from the application.
           </p>
           <p>Now that you've made all the changes you want, it's time to dive into how to save your data.
             As explained above, we'll use OSF (Open Science Framework) to hold the data.
@@ -158,14 +158,14 @@
             OSF, DataPipe and GitHub Pages
           </p>
           <p>
-            DataPipe is an API (Application Programming Interface) created by the developpers of JsPsych for sending data from your behavioral experiments to the Open Science Framework, for free.
+            DataPipe is an API (Application Programming Interface) created by the developpers of JsPsych for sending data from behavioural experiments to the Open Science Framework,
+            <strong>for free</strong>.
             Check out more information on <a target="_blank" rel="noopener noreferrer" href=https://pipe.jspsych.org/getting-started>getting started with DataPipe</a>.
           </p>
           <h2 id="DataPipe-OSF">Setting up DataPipe and OSF</h2>
           <p>Here, find a recap of the different tasks you'll need to engage in, in order.
 
-
-          <ul class="list-group list-group">
+          <ul class="list-group">
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
               <label class="form-check-label" for="firstCheckbox" style="overflow-wrap: break-word;">Create an OSF page for your project, <strong>copy the numbers at the end of the URL</strong>.</label>

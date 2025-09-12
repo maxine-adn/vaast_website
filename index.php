@@ -22,7 +22,7 @@
   <main class="container-sm px-3">
     <div class="px-0 pt-4 my-5 text-center border-bottom">
       <h2 class="mb-3">A highly replicable implicit measure of attitudes:</h2>
-      <h1 class="display-5 fw-bold text-body-emphasis mb-4" style="white-space: nowrap">
+      <h1 class="display-5 fw-bold text-body-emphasis mb-4 text-center">
         &#10024; The Visual Approach and Avoidance by the Self Task &#10024;
       </h1>
       <br>

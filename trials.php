@@ -21,20 +21,20 @@
   <?php include 'color-modes.php'; ?>
   <?php include 'header.php'; ?>
   <main>
-    <div class="p-md-5 mt-5 text-body-emphasis bg-body-secondary container" style="padding: 1.5rem 1.5rem 0 1.5rem; border-radius: 21px">
+    <div class="p-md-5 my-4 text-body-emphasis bg-body-secondary container mt-5" style="border-radius: 21px">
       <div class="col-lg-12 px-0 text-center">
         <h2 class="fst-italic">
           Choose which version of the VAAST you want to try :
         </h2>
       </div>
     </div>
-    <div class="d-md-flex flex-md-equal w-100 mb-md-5 ps-md-3 container-sm">
+    <div class="d-md-flex flex-md-equal w-100 ps-md-3 container-sm" style="margin-bottom: 4rem">
       <a
         target="_blank" rel="noopener noreferrer"
-        class="text-bg-dark me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
+        class="text-body-emphasis me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
         href="explicit-vaast.php">
 
-        <div class="mb-2 mt-4 pb-2 pt-4">
+        <div class="mb-2 pb-2 pt-4">
           <h2 class="display-6">Explicit VAAST</h2>
         </div>
 
@@ -49,10 +49,10 @@
       </a>
       <a
         target="_blank" rel="noopener noreferrer"
-        class="text-bg-dark me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
+        class="text-body-emphasis me-md-3 pt-md-4 mb-4 text-center text-decoration-none"
         href="incidental-vaast.php">
 
-        <div class="mb-2 mt-4 pb-2 pt-4">
+        <div class="mb-2 pb-2 pt-4">
           <h2 class="display-6">Incidental VAAST</h2>
         </div>
 

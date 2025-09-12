@@ -44,7 +44,7 @@
                     </div>
 
                     <div id="qu-1" class="answer bg-body-tertiary">
-                        <p style="left: 15px">Have you made sure you pushed the feature to the timeline? It should look something like :
+                        <p style="left: 15px; width: 95%">Have you made sure you pushed the feature to the timeline? It should look something like :
                         <pre style="width: 16.5rem; border-radius:10px"><code>timeline.push(feature_name);</code></pre>
                         </p>
                     </div>
@@ -53,7 +53,7 @@
 
                 <div>
                     <div class="d-flex align-items-center justify-content-between p-4 position-relative">
-                        <p class="fw-bold px-3 py-0 m-0">question 2</p>
+                        <p class="fw-bold px-3 py-0 m-0">Why is there a flash in the task?</p>
 
                         <button id="2" type="button" class="showOrHideHelp text-center help-button my-auto bg-body-tertiary">
                             <ion-icon name="chevron-forward-outline" id="icon-2" class="show-hide-help-icon"></ion-icon>
@@ -61,7 +61,9 @@
                     </div>
 
                     <div id="qu-2" class="answer bg-body-tertiary">
-                        <p style="left: 15px">answer to question 2</p>
+                        <p style="left: 15px; width: 95%">We are aware that a flash appears on the screen the <strong>first time</strong> a movement is made in either direction. <br>
+                            Note that it only happens once, as it probably has to do with the preloading of the images not working properly. <br>
+                            Find more information about this, <a href="docs.php#flash">here</a>.</p>
                     </div>
                 </div>
                 <hr style="width: 95%" class="mx-auto" />
@@ -75,7 +77,7 @@
                         </button>
                     </div>
                     <div id="qu-3" class="answer bg-body-tertiary">
-                        <p style="left: 15px">answer to question 3</p>
+                        <p style="left: 15px; width: 95%">answer to question 3</p>
                     </div>
                 </div>
                 <hr style="width: 95%" class="mx-auto" />
@@ -90,7 +92,7 @@
                     </div>
 
                     <div id="qu-4" class="answer bg-body-tertiary">
-                        <p style="left: 15px">answer to question 4</p>
+                        <p style="left: 15px; width: 95%">answer to question 4</p>
                     </div>
                 </div>
             </div>

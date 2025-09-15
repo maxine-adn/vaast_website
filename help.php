@@ -99,7 +99,7 @@
 
             <h1 class="display-6 fw-bold text-body-emphasis mb-3" style="text-align:center">You have another question:</h1>
             <p class="mx-auto mb-4" style="text-align:center; width:80%">
-                If it relates to jsPsych, to the use of plugins or timelines..., please visit <a target="_blank" rel="noopener noreferrer" href="https://www.jspsych.org/latest/">jsPsych</a>, their <a target="_blank" rel="noopener noreferrer" href="https://github.com/jspsych/jsPsych/discussions">GitHub discussion board</a>, or ask your question there.
+                If it relates to jsPsych, to the use of plugins or timelines, etc., please visit <a target="_blank" rel="noopener noreferrer" href="https://www.jspsych.org/latest/">jsPsych</a>, their <a target="_blank" rel="noopener noreferrer" href="https://github.com/jspsych/jsPsych/discussions">GitHub discussion board</a>, or ask your question there.
                 <br>
                 If it relates to the VAAST, please read <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">this article</a>
                 to see if it answers your questions, or email us at:

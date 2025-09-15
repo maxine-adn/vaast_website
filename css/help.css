@@ -1,13 +1,10 @@
 /* Buttons */
 
-button {
+.help-button {
   position: absolute;
   border: none;
   outline: none;
   cursor: pointer;
-}
-
-.help-button {
   right: 25px;
   color: var(--bs-body-color);
   border-radius: 5px;
@@ -20,6 +17,10 @@ button {
 
 #copy-mail {
   /* border-radius: 15px; */
+  position: absolute;
+  border: none;
+  outline: none;
+  cursor: pointer;
   bottom: 8px;
   right: 8px;
   border-radius: 7.5px;

@@ -40,7 +40,7 @@
 
         <div class="mx-auto">
           <img
-            src="media/vaast-background_eco_vf_gq.jpg"
+            src="media/vaast-background_non_eco_env.jpg"
             style="width: 85%"
             class="mx-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"
@@ -58,7 +58,7 @@
 
         <div class="mx-auto">
           <img
-            src="media/vaast-background_all_eco.jpg"
+            src="media/vaast-background_eco_env.jpg"
             style="width: 85%"
             class="mx-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"

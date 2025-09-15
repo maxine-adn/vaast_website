@@ -267,7 +267,7 @@
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="media/vaast-background_all_eco.jpg"
+            src="media/vaast-background_eco_env.jpg"
             class="d-block mx-lg-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"
             width="700"
@@ -297,7 +297,7 @@
         </div>
         <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="media/vaast-background_eco_vf_gq.jpg"
+            src="media/vaast-background_non_eco_env.jpg"
             class="d-block mx-lg-auto img-fluid border rounded-3 p-4"
             alt="background image with ecological environment and visual flow"
             width="700"

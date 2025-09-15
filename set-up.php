@@ -247,7 +247,7 @@
                 <a
                   class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" target="_blank" rel="noopener noreferrer"
                   href="explicit-vaast.php">
-                  <img src="/media/vaast-background_eco_vf.jpg" height="100">
+                  <img src="/media/vaast-background_non_eco_env_tiny.jpg" height="100">
                   <div class="col-lg-8">
                     <h6 class="mb-0">Try the explicit vaast!</h6>
                     <small class="text-body-secondary">Click here</small> <!-- replace by something else ? -->

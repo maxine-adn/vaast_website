@@ -238,9 +238,41 @@
                 </div>
                 <div class="p-3 p-md-4 mb-4 rounded text-body-emphasis bg-body-secondary mx-auto" style="width: 95%"> <!-- code chunk -->
                     <h2 style="margin-left: 0; margin-bottom: 1rem">Example of vaast-image trial</h2>
-                    <pre><code>
 
-</code></pre>
+                    <div class="py-2">
+                        <h4 style="margin-left: 0; margin-bottom: 1rem">First step of a trial</h4>
+                        <p>*You could also change <code>force_correct_key_press</code> to <code>true</code> to force the participants to respond correctly.</p>
+                        <pre><code>const vaast_first_step = {
+type: jsPsychVaastImage,
+stimulus: jsPsych.timelineVariable("stimulus"),
+position: 1,
+background_images: background,
+font_sizes: image_sizes,
+approach_key: "t",
+avoidance_key: "b",
+stim_movement: jsPsych.timelineVariable("movement"),
+html_when_wrong: '&lt;span style="color: red; font-size: 80px"&gt;&times;&lt;/span&gt;',
+force_correct_key_press: true,
+display_feedback: true,
+response_ends_trial: true,
+};</code></pre>
+                    </div>
+
+                    <div class="py-2">
+                        <h4 style="margin-left: 0; margin-bottom: 1rem">Second step of a trial</h4>
+                        <pre><code>const vaast_second_step = {
+  type: jsPsychVaastImage,
+  stimulus: jsPsych.timelineVariable("stimulus"),
+  position: next_position_training,
+  background_images: background,
+  font_sizes: image_sizes,
+  stim_movement: jsPsych.timelineVariable("movement"),
+  response_ends_trial: false,
+  trial_duration: 650,
+};</code></pre>
+                    </div>
+
+                    <p class="lead fw-semibold mb-0">Find more information on different possible trials on the tree below.</p>
                 </div>
             </div>
 
@@ -356,7 +388,7 @@
                 <div class="p-3 p-md-4 mb-4 rounded text-body-emphasis bg-body-secondary mx-auto" style="width: 95%"> <!-- code chunk -->
                     <h2 style="margin-left: 0; margin-bottom: 1rem">Examples of vaast-text trial</h2>
 
-                    <div class="py-2">
+                    <div class="pt-2">
                         <h4 style="margin-left: 0; margin-bottom: 1rem">First step of a test trial</h4>
                         <pre><code>const vaast_first_step = {
   type: jsPsychVaastText,
@@ -390,9 +422,7 @@
 
                     <div class="py-2">
                         <h4 style="margin-left: 0; margin-bottom: 1rem">First step of a training trial</h4>
-                        <p>*You could also change <code>force_correct_key_press</code> to <code>true</code> and <code>response_ends_trial</code>
-                            to <code>false</code> to force the participants to respond correctly.
-                        </p>
+                        <p>*You could also change <code>force_correct_key_press</code> to <code>true</code> to force the participants to respond correctly.</p>
                         <pre><code>const vaast_first_step_train = {
   type: jsPsychVaastText,
   stimulus: jsPsych.timelineVariable('stimulus'),
@@ -402,13 +432,15 @@
   stim_movement: jsPsych.timelineVariable('movement'),
   approach_key:  approach_key,
   avoidance_key: avoidance_key,
-  html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
+  html_when_wrong: '&lt;span style="color: red; font-size: 80px"&gt;&times;&lt;/span&gt;',
   force_correct_key_press: false,
   display_feedback: true,
   feedback_duration: 500, 
   response_ends_trial: true
 }</code></pre>
                     </div>
+
+                    <p class="lead fw-semibold mb-0">Find more information on different possible trials on the tree below.</p>
                 </div>
             </div>
         </div>

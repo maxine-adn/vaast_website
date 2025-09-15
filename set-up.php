@@ -233,7 +233,7 @@
       </div>
       <div class="col-md-4">
         <div class="position-sticky" style="top: 2rem">
-          <div class="p-4 mb-5 bg-body-tertiary rounded">
+          <div class="p-4 mb-5 mt-2 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
             <p class="mb-0">
               Read about the experiment in <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/abs/pii/S0022103117305309">this article</a>,
@@ -304,6 +304,8 @@
   <script>
     hljs.highlightAll();
   </script>
+
+  <script src="js/color-modes-highlight.js"></script>
 </body>
 
 </html>

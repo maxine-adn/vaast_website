@@ -526,14 +526,16 @@ const if_not_enough_time = {
   <script src="js/copy-button.js"></script>
   <script src="js/active-hd.js"></script>
   <script src="js/show-hide-button.js"></script>
-  <!-- code highlighter: -->
 
+  <!-- code highlighter: -->
   <script src="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
   <link data-bs-theme="dark" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css">
   <link data-bs-theme="light" rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-light.min.css">
   <script>
     hljs.highlightAll();
   </script>
+
+  <script src="js/color-modes-highlight.js"></script>
 </body>
 
 </html>

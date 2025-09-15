@@ -131,6 +131,8 @@
     <script>
         hljs.highlightAll();
     </script>
+
+    <script src="js/color-modes-highlight.js"></script>
 </body>
 
 </html>
